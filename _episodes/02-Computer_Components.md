@@ -1,7 +1,7 @@
 ---
 title: "The anatomy of a digital computer"
 teaching: 30
-exercises: 5
+exercises: 0
 questions:
 - "What are the main parts of a computer and how do they work?"
 objectives:

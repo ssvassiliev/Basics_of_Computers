@@ -1,52 +1,54 @@
 ---
-title: "Operating Systems"
+title: "Using a computer"
 teaching: 30
 exercises: 
 questions:
-- "What files are needed to run an MD simulation with AMBER?"
+- "How to choose a computer?"
+- "How to maintain a computer?"
+- "How to protect your computer?"
+- "Is it better to repair or replace a computer?"
 objectives:
-- "Learn what types of files are needed to run an MD simulation with AMBER"
+- "Understand what are the most important factors to consider when buying a PC."
+- "Learn how to keep your computer safe."
 keypoints:
 - "To run an MD simulation with AMBER 3 files are needed: an input file, a parameter file, and a file describing coordinates/velocities . "
 ---
 
-## 17. Choosing a computer
+## 17. How to choose the right computer
 Choosing a computer is always about making trade-off decisions. Unless money is absolutely no issue for you, you will have to make some trade-offs such as:
 
-Powerful desktop or portable laptop.
-Faster CPU or longer battery life
-Lighter weight or less expensive
-Bigger and better display or less cost
+- Powerful desktop or portable laptop.
+- Faster CPU or longer battery life
+- Lighter weight or less expensive
+- Bigger and better display or less cost
 
 The trade-offs really depend on how you plan to use the system.  The point is, before you choose your platform, it's important for you to identify your needs.  It may be that you have a limited budget or that you have a specific pressing need. Unless your first priority is to get your job done as soon as possible, there is little need to spend a great deal of money.
 
 In my opinion, there are quite a few differences in the criteria for selecting a desktop computer or laptop. My choice of a laptop computer will be dictated by my preferences. My laptop must be lightweight and small, but I also need a reasonable-sized keyboard and high-definition screen. The size, weight, and screen quality are more important to me than any other factor, including price.  Remember that identifying your needs is the first step in choosing the right platform. 
 
-## 18.Tradeoffs in Buying a Computer
-
-Find balance between price and performance. Don't be obsessed with getting the fastest available hardware components. By choosing components that are not top of the line, you can get a very good performance on a much smaller budget. 
-
-Laptop even the most expensive will not be suitable for serious computations for extended periods of time. 
+## 18. Tradeoffs in Buying a Computer
+It is also important to balance price and performance. Don't be obsessed with getting the fastest available hardware components, it is not necessary. With components  that are not top-of-the-line, you can get excellent performance for less money. I will briefly point out a few other things to consider when purchasing a computer. 
 
 - Desktops are powerful, upgradable, repairable, flexible price, but not portable. Full-sized parts make hardware reliable and replaceable. Desktops are way more flexible, and you can buy exactly what you need without having to buy unnecessary components. 
 
+- Laptop even the most expensive will not be suitable for serious computations for extended periods of time. 
+
 - As the system drive, use SSD, and as extra storage, HDD. Install all applications on SSDs and use HDDs for long-term storage or backups only. M2.NVMe SSDs are much faster than regular SSDs and provide the best performance. With NVMe SSD, applications will load much faster and the overall system will be more responsive. 
 
-RAM speed 
-- The speed of RAM is a tricky subject and one that actually comes down to several different factors, not just the MHz clock speed.
-- Going from 3000MHz to 3600MHz RAM makes very little difference to real-life performance (less than 1% in most cases). 
+- Choose the right memory
+ - Going from 3000MHz to 3600MHz RAM makes very little difference to real-life performance (less than 1% in most cases). 
+ - Don’t pay for RAM speeds your system doesn’t support. 
+ - Speed of RAM depends on two factors, not just the MHz clock speed. In order to determine how fast your RAM is, you must take into account both the CAS (Column Access Strobe) latency and clock speed.
+ -If you are in a position where you are unsure to go for 8GB of faster RAM or 16GB, you should always opt for the 16GB especially if you are price-conscious. Sure, if you can afford it then grabbing a 16GB+ kit with fast speeds will have some benefits it is only really relevant when small performance gains are important for you.
 
-If you are in a position where you are unsure to go for 8GB of faster RAM or 16GB, you should always opt for the 16GB especially if you are price-conscious. Sure, if you can afford it then grabbing a 16GB+ kit with fast speeds will have some benefits it is only really relevant when small performance gains are important for you.
+- Laptops are less powerful than desktops but portable. They are expensive and tough to upgrade, maintain, or repair due to miniaturized parts. Only a limited set of features can be customized.
 
-Laptops are less powerful than desktops but portable. They are expensive and tough to upgrade, maintain, or repair due to miniaturized parts. Only a limited set of features can be customized.
-
-Mobile are very portable, but limited in power and impossible* to repair. Same issues as laptops, but less power and I/O options.
+- Mobile are very portable, but limited in power and impossible to repair. Same issues as laptops, but less power and I/O options.
 
 It is likely that at some point you will realize that one PC, even the fastest one, won't suffice to do the work you require. As an example, if the analysis of one sample takes a day and you have thousands of samples to analyze, it will take several years! Using HPC clusters provided by Digital Alliance of Canada might be an option in this case. It would take just a few days to complete all analyses with a thousand of CPUs. Such computational resources are available and free for academic researchers. I encourage you to attend our ACENET basics sessions next week where we will introduce these resources and explain how to use them.
 
 
 ## 19. Keeping your computer in good shape (Maintain your equipment)
-
 In the past computers required to be regularly powered down or rebooted. New computers can go without power cycling for months. However, if computer becomes unusually sluggish, or some programs do not behave as they should even if they are restarted then rebooting your computer is the first thing you should do before trying to solve the problem..
 
 - Cleanup storage. You can free up disk space on your hard drive by running a disk cleanup. This will clean out temporary files as well as delete big attachments and other types of files.
@@ -61,31 +63,32 @@ In the past computers required to be regularly powered down or rebooted. New com
 
 - Keep your anti-virus software up-to-date and frequently scan your computer for viruses.
 
-## 20. Password manager
-Use a different password for each account, never use same password for several sites. When breaches expose credentials, all accounts that share a password are exposed. 
-
-Of course it is impossible to remember all passwords, so get a password manager like DashLane, BitWarden or 1Password.  With a password manager, you don't have to remember strong, unique passwords for all your accounts. The password manager stores them for you and even helps you generate new, random ones. A password manager is like a digital keyring, it keeps everything in one secure place for easier access.
-
-Generate a strong master password at least 8 chars lond with 3 types of characters. Never use a dictionary word or even a part of a word for passwords. These are very easy to crack. Alternatively you can use passphrases. Passphrase is easy to remember because it uses a combination of dictionary words but provide a good level of security.
-  
-## 21. Security
+# Security
+## 20. Security: Malware and Viruses 
 Do you need an Antivirus? It depends on the operating system. Windows and macOS include protection against viruses, in one way or another.
 
 Microsoft Defender Antivirus in addition to providing antivirus protection, also manages other security features such as Windows Firewall. However it was reported that is has some significant limitations and you can improve your protection by installing a third-party antivirus such as BitDefender, Avast, AVG.
 
 MacOS Includes Security by Design. The operating system resides on a read-only drive partition, separate from all other programs. To infect another program, a virus needs to modify that program, and that’s not allowed in macOS. To steal private data, a banking Trojan must read memory belonging to your browser, which is likewise not allowed. In the macOS environment, apps are isolated, and limited to accessing their own resources. macOS includes a technology called Gatekeeper, that's designed to ensure that only trusted software runs on your Mac. While Macs aren’t as vulnerable as Windows boxes they still can get malware. 
 
-## 22. MFA
+## 21. Security: Passwords
+Use a different password for each account, never use same password for several sites. When breaches expose credentials, all accounts that share a password are exposed. 
+
+Of course it is impossible to remember all passwords, so get a password manager like DashLane, BitWarden or 1Password.  With a password manager, you don't have to remember strong, unique passwords for all your accounts. The password manager stores them for you and even helps you generate new, random ones. A password manager is like a digital keyring, it keeps everything in one secure place for easier access.
+
+Generate a strong master password at least 8 chars lond with 3 types of characters. Never use a dictionary word or even a part of a word for passwords. These are very easy to crack. Alternatively you can use passphrases. Passphrase is easy to remember because it uses a combination of dictionary words but provide a good level of security.
+
+## 22. Security: MFA
 For accounts that require enhanced security, enable multifactor authentication if it is supported.
 There are many ways to enable MFA, such as Authenticator Apps, USB Security Keys, Email or SMS login confirmations, Biometrics.
 
 You just need to pick a method that works for your services. With two-factor authentication, it is impossible for someone to break into your account with a stolen password.
 
-## 23. Stay secure
+## 23. Security: Phishing
 Always be suspicious of any unexpected email or unusual request – especially if it concerns finances, log-in credentials, or clicking a file or link. Don’t open attachments from unknown users, poorly written/vague emails. Think twice before clicking on any links!  Phishing emails today are the result of well-organized criminal businesses, and they are very inventive in crafting messages that get opened. When in doubt look at the email header to see where it actually came from and check if the domain it came from is black listed.
 Never give your password to anyone. You will not be asked for your password by the admin, they shouldn't have access to it, and they don't need it for anything.
 
-## 24.Backups
+## 24. Backups
 
 ## 25. Where to look to fix it.
 If something does not work as expected ..
@@ -134,19 +137,26 @@ Check your RAM as well. RAM failure could slow your computer down, but it could 
 
 To determine whether an upgrade is worth your money, look at how much it will cost. I would not recommend fixing an old (> 5-7 yr) computer if its repair costs more than 25 percent of the cost of a new computer. A simple upgrade to one component can usually extend the lifespan of your computer by a couple of years if it is causing a slowdown. 
 
+<-----------------> 1h 50min
 
 ## 28. Keyboard
 
 Keyboards come in many styles or layouts. The various models differ from shape, size and feel. The most common keyboard layout is the standardized 104-key US keyboard. This layout has seven groups of keys.
 
-1. Typing keys are the keys on the keyboard that look like typewriter keys. These keys are arranged in the same way in almost every keyboard. Along with the keys that produce letters and numbers, the typing keys include punctuation keys and 3 keys having specific functions, which are, TAB, CAPS LOCK and BACK SPACE. 
+### Overview of keyboard sections
+
+#### Typing keys 
+Typing keys are the keys on the keyboard that look like typewriter keys. These keys are arranged in the same way in almost every keyboard. Along with the keys that produce letters and numbers, the typing keys include punctuation keys and 3 keys having specific functions, which are, TAB, CAPS LOCK and BACK SPACE. 
 Modifier Keys
 
+#### Modifier keys
 The SHIFT, ALT and CTRL keys are called the modifier keys. Because these keys modify the default input of other keys when pressed together. For example, while the CTRL key and the alphanumeric key ‘c’ are pressed together the input becomes a command sending termination signal to a program running in Linux terminal.
 
-2. Numeric Keys in Numeric Keypad
-
+#### Numeric Keys in Numeric Keypad
 Though the alphanumeric keys includes all the numeric keys, still in an standard keyboard there is a separate place of numeric keys, this section of the keyboard is called the Numeric Keypad. It is like calculator keypad. It contains number keys and mathematical operator keys
+
+#### Function keys 
+The function keys or F1 through F12 keys are used in programs as shortcut keys to execute frequently performed tasks. 
 
 ## 29. Function keys
 The function keys are located in a row at the top of the keyboard. These keys allow you to input commands without typing long strings of characters. 
@@ -163,111 +173,19 @@ F10	Activates Windows Menu Bar
 Hold F2 or F11 during boot up to enter BIOS
 Hold F8 during boot up to enter boot menu 
 
+## 30. Windows Key
 
-# 30. Windows key
-This key is used to provide shortcuts around your system. 
+Windows key is used to provide shortcuts around your system. 
 
-Windows logo key	Opens Start Menu
+WindowsKey	Opens Start Menu
 A combination of: 
-Windows logo key+M	Minimizes all open windows.
-Windows logo key+E	Opens Windows Explorer.
-Windows logo key+F	Opens the Find All Files dialog box.
-Windows logo key+R	Opens the Run dialog box.
-
-Special purpose keys.
-
-Alt + PrintSc - Screenshot your active window.
-Ctrl/Cmd + V - “Paste clipboard object”
-
-Shift usually alters a command slightly, such as
-Ctrl/Cmd + Shift + V - “Paste without formatting”
-
-On macOS:
-
-To take a screenshot, press and hold these three keys together: [Shift, Command, and 3]. 
-Press and hold  [Shift, Command, and 4] to capture a fraction of screen
+WindowsKey + M	Minimizes all open windows.
+WindowsKey + E	Opens Windows Explorer.
+WindowsKey + F	Opens the Find All Files dialog box.
+WindowsKey + R	Opens the Run dialog box.
 
 ## 31. Common keyboard shortcuts
+One of the best methods of becoming more efficient with your computer is to learn and memorize as many keyboard shortcuts as possible. 
+
 Here are some useful common keyboard shortcuts. Windows and Mac OS have virtually the same shortcuts, but Mac OS uses the command key instead of the Control key for the shortcuts.
-
-## 32. What is electronic computer?
-
-In the computer, there are many millions of nanoscale electronic switches called transistors capable of flipping on and off billions of times each second. Except for a busted switch, a switch can be on or off, closed or open. When a switch is "on" or "closed", an electrical signal passes through it, while when it is "off" or "open," that signal is blocked. In computer science a switch that is "on" is represented by a 1 and a switch that is "off" is represented by a 0. 
-
-
-## 33. Why do computers use binary numbers
-
-Computers use binary code inside the central processing unit (CPU) and RAM because this is the easiest and simplest way to record and process the electrical currents that run through their hardware. Representation of data in 1s and 0s reflects how computers are organized internally. By representing data in a way that matches how an actual computer works, scientists enabled computers to carry out data processing and instructions processing with the same components. With this way of organizing the computer and the data it processes, we are now able to achieve incredible computational performance and storage capacities.
-
-[ Binary number system is positional numeral system employing 2 as the base and so requiring only two different symbols for its digits, 0 and 1, instead of the usual 10 different symbols needed in the decimal system. ]
-
-Another reason why computers use binary system is binary logic. Boolean algebra defines operators for manipulating manipulating combinations of True and False values.  True and False sounds similar to 1 and 0, or on and off. Thus it is no surprise that boolean algebra is a foundation of digital circuit design. 
-
-If you stack transistor switches together, you create a logic gate with two inputs. The gate compares two different input states (for example if each of the switches is on or off) to determine its output. Therefore, there are three main types of gates and three different logical operations available in computing: AND, OR, and NOT. This is how computers make decisions and is the basic principle of computer programming. A program is made up of logical sets of instructions. An example of how this works in real life might be: “If I push the button on the front door or I push the button on the garage door the doorbell will ring". 
-
-
-## 34. TRUE and FALSE (Boolean Logic)
-Let's have a quick look at Basic Boolean Operations.
-A very useful tool when working with boolean logic is the truth table.
-
-AND: the result is T if, and only if, all inputs are T; if any input is F, the result is F.
-OR: the result is T if any inputs are T; the result is F if, and only if, all inputs are F.
-NOT: the result is T if the input is F, and F if the input is T.
-
-These basic operations can be combined in any number of ways to build, literally, everything else in a computer. With logic gates, we can create circuits for data storage and for mathematical operations such as addition, multiplication, division, etc.
-
-One neat thing about Boolean Logic is that it converts directly into electronic circuitry.
-We used True (T) and False (F) to indicate logic states. When we talk about actual circuits, it's more typical to talk about high (H) and low (L) signals. Computers become “faster” by getting switches that can go from H to L faster.
-
-
-## 35. Hexadecimal number system
-
-If you worked with image editing or webpage design you are probably familiar with Hexadecimal Colors. In this color coding system intensity of each of the three primary colors (red, green and blue) is represented by two hexadecimal digits between 00 and FF to create 256 possible values, thus resulting in more than 16 million possible colors. 
-
-The hexadecimal number system is a type of number system, that has a base value equal to 16. It is also pronounced sometimes as 'hex'. Hexadecimal numbers are represented by 16 symbols. These symbols are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E and F.
-
-21 (dec) = 1x16^1 + 5x16^0 = 15 (hex)
-
-Hexadecimal number system provides convenient way of converting large binary numbers into more compact and smaller groups because 4 binary digits are represented with just one hexadecimal digit.
-
-Hex system is commonly used in Computer programming and Microprocessors. Hexadecimal number system is used to describe locations in memory for every byte. These hexadecimal numbers are also easier to read and write than binary or decimal numbers for Computer Professionals. There is wide number of advantages in data science field, artificial intelligence and machine learning.
-
-The major disadvantage of Hexadecimal number system is that it may not an easy to read and write for people, and also difficult to perform operations like multiplications, divisions using hexadecimal number system. 
-
-## 36. Everything in computers is digits.
-
-In computers numbers encode both commands and data. Everything on a computer is represented as streams of binary numbers. Audio, images and characters all look like binary numbers in machine code. These numbers are encoded in different data formats to give them meaning, eg the 8-bit pattern 01000001 could mean the number 65, the character 'A', or a color in an image.
-
-## 37. Pointers
-Pointers provide a very efficient access to variables stored in memory and are used in many programming languages. A pointer tells you where something is, like an address or a phone number and many other things that you encounter every day. However pointers and pointer arithmetic are a leading factor of confusion for many new, and even experienced programmers. 
-
-I'll try to explain as simple as possible what are pointers. Suppose the computer is a community, every data stored in the computer is a house, and every smallest unit of memory is a person in the house, and your friend happens to live in this community. Now you come to this community to visit friend. You want to find his house, so you check his address. It points to the location of your friends house, and you find this house according to address.
-
-Thus pointers are variables that store the addresses of other variables. In other words, pointer points to a variable that is stored at a given address. 
-
-## 38. So why don’t I need to enter numbers?
-
-Since everything in the computer is a number, why it doesn't require me to enter any numbers?
-You don’t enter in billions of numbers because people have built operating systems. An operating system is the most important software that runs on a computer. It manages the computer's memory and processes, as well as all of its software and hardware. It also allows you to communicate with the computer without knowing how to speak the computer's language. Without an operating system, a computer is useless.
-
-In early days of electronic computers (1955–65) there was no operating system. A programmer would first write the program on paper in FORTRAN or assembler, then punch it on cards. He would then bring the card deck down to the input room and hand it to one of the operators and go drink coffee until the output was ready.
-
-When the computer finished whatever job it was currently running, an operator would go over to the printer and tear off the output and carry it over to the output room, so that the programmer could collect it later. Then he would take one of the card decks that had been brought from the input room and read it in. If the FORTRAN compiler was needed, the operator would have to get it from a file cabinet and read it in. 
-
-Much computer time was wasted while operators were walking around the machine room. People quickly looked for ways to reduce the wasted time. The solution was the batch system. The idea behind it was to collect a tray full of jobs in the input room and then read them onto a magnetic tape. Thus the first operating system was born and a long way (almost a century) of OS development began.     
-
-## First digital computer
-~~~
-The first digital computer was designed by the English mathematician Charles Babbage who died 1871. He never got his 'analytical engine' working properly because it was purely mechanical, and the technology could not produce the required wheels, gears, and cogs to the high precision that he needed. And of course the analytical engine did not have an operating system.
-
-Interestingly, Babbage realized that he would need software for his 'analytical engine', so he hired Ada Lovelace, who was the daughter of the British poet Lord Byron, as the world's first programmer. The programming language Ada® is named after her.
-~~~
-
-### Polls:
-#### 1.
-What is the number of charge levels in a quad level cell?
-1. 4
-2. 8
-3. 12
-4. 16
 

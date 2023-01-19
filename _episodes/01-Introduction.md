@@ -1,6 +1,6 @@
 ---
 title: "What is a Computer"
-teaching: 30
+teaching: 20
 exercises: 0
 questions:
 - "What is a computer?"
@@ -21,6 +21,18 @@ keypoints:
 - "In order for a computer to function properly, it needs three components: hardware, an operating system, and software."
 - "A computing platform is the stage on which a computer program can run"
 ---
+
+Improvement:
+1. add links for further readings and insights
+2. I had expected more detail on the comparison of laptop/desktop, etc and the software options.
+3. practical hand-ons
+
+level of difficulty 3 - right, 2 - much too easy, 1 - somewhat easy,  1 - somewhat  difficult
+
+Overview of software: At the end refer to other more advanced sessions covering usage of software 
+1. Advanced Excel, Access - refer to HSS series. etc
+
+2. R, PLINK
 
 Poll questions: 
 
