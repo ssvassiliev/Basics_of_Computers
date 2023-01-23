@@ -11,7 +11,7 @@ objectives:
 - "Understand what are the most important factors to consider when buying a PC."
 - "Learn how to keep your computer safe."
 keypoints:
-- "To run an MD simulation with AMBER 3 files are needed: an input file, a parameter file, and a file describing coordinates/velocities . "
+- "Use a different password for each account and beef up security using MFA if possible."
 ---
 
 ## 17. How to choose the right computer
@@ -139,6 +139,33 @@ To determine whether an upgrade is worth your money, look at how much it will co
 
 <-----------------> 1h 50min
 
+## Package managers
+All the operating systems depend on a set of software applications to carry out user intended tasks. In the early days, applications were tested against bugs before release to provide a better user experience. Now the software application is released with the intent to apply bug fixes in new versions. Moreover, each application has its updater, or the user has had to figure out how to obtain the upgraded software release.
+
+Linux adopted the timely software management practice by creating packaging formats, software packages, and unique installation tools. This article discusses how the software package installation process upgraded from tarball package installation to DEB and RPM package management.
+
+
+Linux comes with a package manager installed by default. A package manager is a piece of software that allows you to install, update, and uninstall programs from the terminal, just by entering a few commands.
+
+They're super helpful, especially when you're installing and uninstalling things constantly, as it's much more efficient to install programs through package managers than manually.
+
+
+Mac's package managers are called (HomeBrew, MacPorts). Not installed by default. [HomeBrew](https://brew.sh) is the most widely used package manager.
+
+On GNU/Linux, the default package manager depends on the distro. For example, Ubuntu comes with APT, Arch comes with Pacman, and so on.
+
+All package managers function in a similar way, but there are some differences in the syntax used for each. It's also important to mention that you can install and run a different package manager than the default.
+
+Windows Package Manager winget command-line tool is bundled with Windows 11 and modern versions of Windows 10 by default as the App Installer.
+
+
+
+
+Chocolatey
+
+
+
+
 ## 28. Keyboard
 
 Keyboards come in many styles or layouts. The various models differ from shape, size and feel. The most common keyboard layout is the standardized 104-key US keyboard. This layout has seven groups of keys.
@@ -159,16 +186,15 @@ Though the alphanumeric keys includes all the numeric keys, still in an standard
 The function keys or F1 through F12 keys are used in programs as shortcut keys to execute frequently performed tasks. 
 
 ## 29. Function keys
-The function keys are located in a row at the top of the keyboard. These keys allow you to input commands without typing long strings of characters. 
+The function keys are located in a row at the top of the keyboard. These keys allow you to input commands without typing long strings of characters. For example, if you press the F1 key, in most programs it will open the help document of the program.  
 
-For example, if you press the 
-F1 key, in most programs it will open the HELP DOCUMENT of the program.
-F2	Renames a selected item.
-F3	Opens the "Find All Files" dialog box.
-F4	Opens the drop-down list box on the toolbar, if there is one.
-F5	Refreshes the current window.
-F6	Switch Panes in Explorer
-F10	Activates Windows Menu Bar
+F1  In most programs opens the help document.
+F2	Renames a selected item. 
+F3	Opens the "Find All Files" dialog box. 
+F4	Opens the drop-down list box on the toolbar, if there is one. 
+F5	Refreshes the current window.  
+F6	Switch Panes in Explorer  
+F10	Activates Windows Menu Bar  
 
 Hold F2 or F11 during boot up to enter BIOS
 Hold F8 during boot up to enter boot menu 
@@ -177,7 +203,7 @@ Hold F8 during boot up to enter boot menu
 
 Windows key is used to provide shortcuts around your system. 
 
-WindowsKey	Opens Start Menu
+Windows Key	Opens Start Menu
 A combination of: 
 WindowsKey + M	Minimizes all open windows.
 WindowsKey + E	Opens Windows Explorer.
@@ -188,4 +214,9 @@ WindowsKey + R	Opens the Run dialog box.
 One of the best methods of becoming more efficient with your computer is to learn and memorize as many keyboard shortcuts as possible. 
 
 Here are some useful common keyboard shortcuts. Windows and Mac OS have virtually the same shortcuts, but Mac OS uses the command key instead of the Control key for the shortcuts.
+
+### Useful Links.
+
+#### [chocolatey](https://chocolatey.org)
+Chocolatey is an open-source package manager for Windows. It builds on top of existing Windows technologies like PowerShell and NuGet. Chocolatey operates via command-line interface, which makes it easy to automate software installation and management.
 

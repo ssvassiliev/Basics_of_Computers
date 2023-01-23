@@ -1,6 +1,6 @@
 ---
 title: "What is a Computer"
-teaching: 20
+teaching: 25
 exercises: 0
 questions:
 - "What is a computer?"
@@ -22,11 +22,14 @@ keypoints:
 - "A computing platform is the stage on which a computer program can run"
 ---
 
+https://ssvassiliev.github.io/Basics_of_Computers/
+
 Improvement:
 1. add links for further readings and insights
 2. I had expected more detail on the comparison of laptop/desktop, etc and the software options.
 3. practical hand-ons
 
+Feedback:
 level of difficulty 3 - right, 2 - much too easy, 1 - somewhat easy,  1 - somewhat  difficult
 
 Overview of software: At the end refer to other more advanced sessions covering usage of software 

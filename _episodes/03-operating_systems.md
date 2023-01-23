@@ -5,10 +5,14 @@ exercises:
 questions:
 - "What are the functions of an operating system?"
 - "What are the most popular operating systems?"
+- "What are the main differences between operating systems?"
 objectives:
-- "Learn what types of files are needed to run an MD simulation with AMBER"
+- "Learn what is an operating system"
+- "Learn about main differences between operting systems?"
 keypoints:
-- "To run an MD simulation with AMBER 3 files are needed: an input file, a parameter file, and a file describing coordinates/velocities . "
+- "Windows, MacOS, and Linux are three of the most popular operating systems."
+- "For desktop and laptop computers, Windows is the most used OS."
+- "For HPC computers and servers the most used OS in Linux."
 ---
 
 ## Choosing an Operating System 
@@ -66,9 +70,38 @@ Both Linux and Mac have bash or zsh as their default shells, while Windows has i
 
 #### Package managers
 
-Mac and GNU/Linux come with package managers installed by default. A package manager is a piece of software that allows you to install, update, and uninstall programs from the terminal, just by entering a few commands.
+Linux comes with a package manager installed by default. A package manager is a piece of software that allows you to install, update, and uninstall programs from the terminal, just by entering a few commands. They're super helpful, especially when you're installing and uninstalling things constantly, as it's much more efficient to install programs through package managers than manually. Linux comes in many flavors
 
-They're super helpful, especially when you're installing and uninstalling things constantly, as it's much more efficient to install programs through package managers than manually.
+depending on your needs, there are many different flavors of Linux you can use.
+Ubuntu uses dpkg and apt
+
+Two package formats: RPM and DEB. RPM is the installation package format for Red Hat Enterprise Linux (RHEL), SUSE Linux Enterprise Server (SLES) distributions. DEB is the package format for the Ubuntu distribution.
+
+### Red Hat Enterprise Linux (RHEL)
+#### RHEL 
+-  A distribution developed for the commercial market. The source code is open, but binary distribution is commercial. Focused on efficiency, security, and stability. 
+
+#### Fedora 
+- More user focused than Red Hat. Focused on innovation, integrating new technologies early. It is considered to be on the leading edge of open-source technologies. Short life cycle. It servers as a testing environment for RHEL.
+
+#### CentOS Stream 
+- positioned as a midstream between Fedora Linux and RHEL. 
+
+#### Rocky Linux and AlmaLinux
+- A complete binary-compatible distros using the RHEL operating system source code. Since both operating systems are built from RHEL source code, there aren't many differences in compatibility, supported architecture, or purpose. The main differences lie in the project funding, which is based on different sponsors, and security.
+
+Package manager dnf (a fork of yum) 
+
+#### Debian
+Ubuntu
+Mint
+
+Package manager apt
+
+#### OpenSUSE
+
+Package manager zypper, rpm-based
+
 
 Mac's package manager is called homebrew. On GNU/Linux, the default package manager depends on the distro. For example, Ubuntu comes with APT, Arch comes with Pacman, and so on.
 
@@ -104,4 +137,8 @@ Using a virtual machine may be a good option if you are undecided between differ
 Windows Subsystem for Linux lets you run Linux directly on Windows, without the overhead of traditional virtual machines. With the latest release of WSL2, even Linux GUI applications can now be run on Windows in a fully integrated desktop environment. 
 
 The bottom line is that whatever operating system you choose is fine as long as it allows you to do what you want.
+
+### Useful Links.
+#### [VirtualBox](https://www.virtualbox.org) 
+VirtualBox is a powerful virtualization solution. VirtualBox runs on Windows, Linux, macOS, and Solaris hosts and supports a large number of guest operating systems
 

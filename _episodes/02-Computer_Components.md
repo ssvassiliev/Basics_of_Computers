@@ -1,16 +1,21 @@
 ---
 title: "The anatomy of a digital computer"
-teaching: 30
+teaching: 35
 exercises: 0
 questions:
 - "What are the main parts of a computer and how do they work?"
+- "How digital computers store information?"
+- "What are the three main types of storage media?"
+- "What to consider when buying a data storage device?" 
+
 objectives:
 - "Learn what the main components of a computer are and what their functions are."
-- "Get to know the differences between CPUs and GPUs."
+- "Get to know the differences between CPUs and GPUs, RAM and secondary memory."
 - "Learn about the flow of information inside a computer."
 - "Understand how storage media works and what their characteristics are."
 keypoints:
 - "In a computer, Random Access Memory serves as its main memory."
+- "HDDs are good for data storage, because of the low price per GB, but not so good for system disks because of the low IOPS."
 ---
 
 ## 5. Anatomy of a computer (Basic parts of a computer).
@@ -96,6 +101,21 @@ American Standard Code for Information Interchange (ASCII) was the first standar
 For example, in ASCII upper case literals A-Z are represented by decimal numbers 65-90, so A in binary is 64 + 1 = 2^6 + 2^0 = 01000001
 
 [ASCII, hex, binary, decimal, base64 converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
+
+
+## 28. Hexadecimal number system
+If you worked with image editing or webpage design you are probably familiar with Hexadecimal Colors. In this color coding system intensity of each of the three primary colors (red, green and blue) is represented by two hexadecimal digits between 00 and FF to create 255 possible values, thus resulting in more than 16 million possible colors. 
+
+The hexadecimal number system is a type of number system, that has a base value equal to 16. It is also pronounced sometimes as 'hex'. Hexadecimal numbers are represented by 16 symbols. These symbols are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E and F.
+
+21 (dec) = 1x16^1 + 5x16^0 = 15 (hex)
+
+Hexadecimal number system provides convenient way of converting large binary numbers into more compact and smaller groups because 4 binary digits are represented with one hexadecimal digit.
+
+Hex system is commonly used in Computer programming and Microprocessors. Hexadecimal number system is used to describe locations in memory for every byte. These hexadecimal numbers are also easier to read and write than binary or decimal numbers for Computer Professionals. There is wide number of advantages in data science field, artificial intelligence and machine learning.
+
+The major disadvantage of Hexadecimal number system is that it may not an easy to read and write for people, and also difficult to perform operations like multiplications, divisions using hexadecimal number system. 
+
 
 ## 10. Storage media types and their characteristics (Storage devices).
 Bits can be stored on any medium that has at least two separate states. The three main types of storage media are magnetic, optical, and semiconductor.
