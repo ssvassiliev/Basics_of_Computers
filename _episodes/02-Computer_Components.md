@@ -19,9 +19,9 @@ keypoints:
 ---
 
 ## 5. Anatomy of a computer (Basic parts of a computer).
-You might be wondering what you find inside a computer when you open it up. There are a lot of things inside of a modern computer, but what exactly do you find? Computers are packed with many things, but what are their purposes?
+You might be wondering what you find inside a computer when you open it up. A modern computer contains a lot of things. What exactly is inside and what are the functions of all its components? 
 
-First I am going to take you through a quick overview of the most common hardware components. We will then take a closer look at a few of the most important components.
+First I am going to take you through a quick overview of the most common hardware components. We will then take a closer look at some most important components.
 
 ![](../fig/Parts-of-a-Computer-A-Complete-Diagram.jpg)
 
@@ -31,7 +31,7 @@ First I am going to take you through a quick overview of the most common hardwar
 4. Input/output devices allow computers to communicate with human operators and other systems. The most common input devices are keyboards, mice, joysticks, and controllers, while the most common output devices are monitors, speakers/headphones, and printers.
 5. In a computer, Random Access Memory serves as its main memory. It is commonly called just memory. 
 6. In any digital computer, the CPU is the brain which does nearly all the calculating. It is the main microchip in the computer that distributes tasks to all other components of the computer. Most CPUs consist of three major parts: memory, control unit, and arithmetic-logic unit. Yes, the CPU has an internal memory system called a CPU cache. The processor cache is a bank of extremely fast memory that facilitates efficient communication with main memory. 
-7. A graphics processing unit (GPU) is a specialized processor originally designed to accelerate 3D graphics rendering. There are different types of GPUs: integrated GPUs that are part of the CPU and discrete GPUs that are sold separately. Compared to integrated GPUs, discrete GPUs have much greater processing capabilities. GPUs today are more programmable than ever before, enabling them to accelerate applications far beyond traditional graphics rendering. GPUs dramatically accelerate applications such as video editing, machine learning, and molecular dynamics simulations.
+7. A graphics processing unit (GPU) is a specialized processor originally designed to accelerate 3D graphics rendering. There are different types of GPUs: integrated GPUs that are part of the CPU and discrete GPUs that are sold separately. Compared to integrated GPUs, discrete GPUs have much greater processing capabilities. GPUs today are more programmable than ever before. In addition to traditional graphics rendering, they are now used in a wide range of applications. 
 8. Last but not least, the motherboard is one of the biggest boards in a computer's case, and it forms the backbone of the device. Besides managing power, motherboard enables communication between a computer's CPU, RAM, storage and other components.
 
 As we move forward, let's take a closer look at some of the most important computer components.
@@ -48,7 +48,7 @@ What are the functions of these main CPU components?
 3. Registers are high-speed storage areas in the CPU. Whenever data is processed, it must first be stored in a register.
 
 ## 7. Graphics Processing Unit (GPU)
-Graphics processing units have grown to become one of the most important types of computing technology today. GPU development had predominantly been driven by the gaming industry, and GPUs are best known for their capabilities in video rendering. GPUs were originally developed to accelerate specific 3D rendering tasks. Over time, these fixed-function engines became more programmable and more flexible. While graphics processing remains their principal function, GPUs have evolved to become more general-purpose parallel processors. Today they are handling a growing range of applications scientific and engineering applications in areas such as machine learning, particle and fluid simulations, drug design, and electronic structure calculations.
+Graphics processing units have become one of the most important types of computing technology today. GPU development had predominantly been driven by the gaming industry, and GPUs are best known for their capabilities in video rendering. GPUs were originally developed to accelerate specific 3D rendering tasks. Over time, these fixed-function engines became more programmable and more flexible. While graphics processing remains their principal function, GPUs have evolved to become more general-purpose parallel processors. Today they are handling a growing range of scientific and engineering applications in areas such as machine learning, particle and fluid simulations, drug design, and electronic structure calculations.
 
 Although most modern CPUs are equipped with integrated GPUs, the performance of these GPUs as compared to discrete GPUs is much lower.
 
@@ -65,7 +65,7 @@ CUDA cores are only a part of what Nvidia GPUs offer. Additionally, they are equ
 **Nvidia H100 GPUs** up to 132 Streaming Multiprocessors, 128 FP32 CUDA cores per SM, total 16896 CUDA cores.  
 **Intel® Xeon® Platinum 9282**  56 cores, 1 AVX-512 vector unit per core can process 16 FP32 numbers at a time.
 
-In summary, GPU architecture enable you to process massive amounts of data simultaneously at extremely fast speeds.
+In summary, GPU architecture enables to process massive amounts of data simultaneously at extremely fast speeds.
 
 ## 8. Random Access Memory (RAM) 
 During the course of computing, data and instructions enter a computer through the input devices and are then stored in memory for future processing. In computers, there are two kinds of memory: primary and secondary. Random Access Memory (RAM) is the primary internal storage area of the computer for code and data that needs to be operated on quickly. It is located on the motherboard and connected directly to the CPU. Due to this, data can be read from and written to primary storage extremely quickly. Using RAM, CPUs can interact with the information held in memory quickly and efficiently. 
