@@ -52,10 +52,10 @@ Poll questions:
     4. Boot loader, operating system, application software, CPU
 
 ## 1. Introduction 
-A few basic computer topics will be covered in this lesson. We will learn what is inside a computer and how it works, how to use and maintain a computer, and how to handle possible issues.
+This lesson is intended to lead you through some basic computer concepts that will give you a better understanding of the computer. We will learn what is inside a computer and how it works, how to use and maintain a computer, and how to handle possible issues.
 
 ## 2. What is a computer?
-In its original sense, the term "computer" referred to someone who performed mathematical calculations. In doing their jobs, human computers were supposed to follow fixed rules and they had no authority to alter them. The term was later applied to mechanical devices that replaced human computers.
+In its original sense, the term "computer" referred to someone who performed mathematical calculations. In doing their jobs, human computers were supposed to follow fixed rules and they had no authority to alter them. The term was later applied to mechanical devices that replaced human computers.{: .instructor_notes}
 
 Today a computer is a programmable device that  
 - accepts data as input
