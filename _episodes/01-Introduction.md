@@ -10,11 +10,10 @@ questions:
 - "What is computer hardware?"
 - "What is computer software?"
 objectives:
-- "Learn about the main functions of a computer and how it can help you"
-- "Understand what components are required for a computer to function."
-- "Learn what computer hardware is and how it works."
-- "Learn what is system software and what does it do?"
-- "Get a better understanding of what application software is and how it works."
+- "Explain the main functions of a computer"
+- "Identify the components that make up a computer"
+- "Classify computer software"
+- "Identify computing platform"
 keypoints:
 - "A computer is a programmable device that processes data, produces results and stores the results for future use" 
 - "Computers can be categorized in four types by their size and performances"
@@ -24,22 +23,7 @@ keypoints:
 
 https://ssvassiliev.github.io/Basics_of_Computers/
 
-Improvement:
-1. add links for further readings and insights
-2. I had expected more detail on the comparison of laptop/desktop, etc and the software options.
-3. practical hand-ons
-
-Feedback:
-level of difficulty 3 - right, 2 - much too easy, 1 - somewhat easy,  1 - somewhat  difficult
-
-Overview of software: At the end refer to other more advanced sessions covering usage of software 
-1. Advanced Excel, Access - refer to HSS series. etc
-
-2. R, PLINK
-
-Poll questions: 
-
-1. The first exascale supercomputer Frontier was built with what type of CPUs?
+1. The first exascale supercomputer Frontier was built with what type of CPUs? (On slide 3, you can find the answer)
     1. Intel Xeon
     2. AMD Epyc
     3. IBM Power
@@ -51,10 +35,22 @@ Poll questions:
     3. Hardware, application software
     4. Boot loader, operating system, application software, CPU
 
-## 1. Introduction 
+3. What numeric code would you use if you wanted the permission to be
+'rwx -w- r-x'? 
+    1. 764
+    2. 725
+    3. 735
+    4. 825
+
+4. How many charge levels are used in a triple level flash memory cell? 
+    1. 3
+    2. 6
+    3. 8
+
+## 2. Objectives
 This lesson is intended to lead you through some basic computer concepts that will give you a better understanding of the computer. We will learn what is inside a computer and how it works, how to use and maintain a computer, and how to handle possible issues.
 
-## 2. What is a computer?
+## 3. What is a computer?
 In its original sense, the term "computer" referred to someone who performed mathematical calculations. In doing their jobs, human computers were supposed to follow fixed rules and they had no authority to alter them. The term was later applied to mechanical devices that replaced human computers.{: .instructor_notes}
 
 Today a computer is a programmable device that  
@@ -63,7 +59,7 @@ Today a computer is a programmable device that
 - produces results as output
 - stores the results for future use
 
-## 3. What are the different types of computers? 
+## 4. What are the different types of computers? 
 There are different types of computers:
 - supercomputers
 - mainframes
@@ -92,7 +88,14 @@ In recent years mini computers evolved into a midrange computers or midrange ser
 ### Microcomputers
 A microcomputer is a small, personal computer that is typically used by only one person at a time. 
 
-## 4. What components are required for a computer to function?
+### Poll #1
+1. The first exascale supercomputer Frontier was built with what type of CPUs? (On slide 3, you can see the answer)
+    1. Intel Xeon
+    2. AMD Epyc +
+    3. IBM Power
+    4. Apple M2
+
+## 5. What components are required for a computer to function?
 There are three components that every computer needs to function, regardless of its type:
 
 1. Hardware
@@ -129,4 +132,10 @@ Despite the fact that a lot of things work across different platforms, some more
 
 Hardware and software require each other and neither can be used without another.
 
+## Poll #2
+2. What components are required for a computer to function?
+    1. Hardware, device drivers, operating system
+    2. Operating system, application software, hardware +
+    3. Hardware, application software
+    4. Boot loader, operating system, application software, CPU
 

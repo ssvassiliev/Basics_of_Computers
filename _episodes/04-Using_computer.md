@@ -8,13 +8,13 @@ questions:
 - "How to protect your computer?"
 - "Is it better to repair or replace a computer?"
 objectives:
-- "Understand what are the most important factors to consider when buying a PC."
-- "Learn how to keep your computer safe."
+- "Choose optimal computer for your work"
+- "Maintain your computer"
 keypoints:
 - "Use a different password for each account and beef up security using MFA if possible."
 ---
 
-## 20. How to choose the right computer
+## 23. How to choose the right computer
 Choosing a computer is always about making trade-off decisions. In most cases, you will have to make some sacrifices unless you don't care about cost. Depending on your needs, you can choose between:
 
 - Powerful desktop or portable laptop.
@@ -26,12 +26,14 @@ The trade-offs really depend on how you plan to use the system.  The point is, b
 
 In my opinion, there are quite a few differences in the criteria for selecting a desktop computer or laptop. My preferences will determine which laptop computer I choose. Lightweight and small are my priorities, but I also need a high-definition screen and a reasonable-sized keyboard. I place more importance on size, weight, and screen quality than any other aspect, including price. A good starting point for choosing the right platform is identifying your needs.
 
-## 21. Tradeoffs in Buying a Computer
+## 24. Tradeoffs in Buying a Computer
 ### Desktop or Laptop?
 A laptop is the only logical choice if portability is your top priority.In general, however, desktops are a much better product than laptops. There are several reasons why desktops are superior to laptops.
 
 1. Desktops are more powerful
 One of the main reasons to buy a desktop is its power. When all components must fit into such a small device, laptops are limited in their power and performance. Only desktop computers offer top-of-the-line performance. You can expect to pay significantly more if you want a laptop with specs similar to a desktop.
+
+While modern high end laptops are very fast, top performance is available only in short bursts. They are not designed to handle high loads for extended periods of time.
 
 There is no doubt that power is important, but it depends a lot on what you intend to use the computer for. When it comes to browsing the internet, watching videos, and writing documents, desktops have almost no advantage over laptops.
 
@@ -47,22 +49,19 @@ The components of a laptop are packed closely together. As a result, you are res
 Repairing laptops can also be a challenge. Components need to be replaced when they break. On a desktop, this can be done with minimal technical knowledge. Opening up a laptop without breaking anything can be challenging, and individual components may not always be replaceable.
 
 5. Desktops Can Be Left On
-Desktops have the advantage of being able to remain on for an indefinite period of time, something that many people ignore. This is useful for users who want to run programs overnight or who wish to use their computer as a remote server. A laptop can also be left on indefinitely, but they are not designed for this purpose, and you run the risk of damaging the hardware.
+Desktops have the advantage of being able to remain on for an indefinite period of time, something that many people ignore. This is useful for users who want to run programs overnight or who wish to use their computer as a remote server. A laptop can also be left on indefinitely, but they are not designed for this purpose, and you run the risk of damaging the hardware. 
 
 8. Desktops Offer More Ports
 Desktops have a wide variety of ports and this gives you the freedom to connect as many peripherals as you want. If a specific port isn't available, it may also be possible to add one.
 
 Laptops do not offer this level of flexibility. There's a limit to how many ports can be installed in a laptop computer due to space restrictions. If you want to add new peripherals, this can be problematic.
 
-
 9. You Can Build Your Own Desktop
-
 A desktop gives you the freedom to build your own system exactly how you want it. It allows you to design a computer tailored to your specific requirements and provides a much greater level of choice. This level of customization is not necessary for everyone, but it is only available on desktop computers.
 
 Overall, desktops are superior to laptops if portability is not required.
 
-## 22. Choosing hardware components.
-
+## 25. Choosing hardware components.
 - When buying a computer it is also important to balance price and performance. Don't be obsessed with getting the fastest available hardware components, it is not necessary. With components  that are not top-of-the-line, you can get excellent performance for less money. I will briefly point out a few other things to consider when purchasing a computer. 
 
 - As the system drive, use SSD, and as extra storage, HDD. Install all applications on SSDs and use HDDs for long-term storage or backups only. M2.NVMe SSDs are much faster than regular SSDs and provide the best performance. With NVMe SSD, applications will load much faster and the overall system will be more responsive. 
@@ -79,7 +78,7 @@ You can find plenty of guides on how to build your own PC. Here is one: [Want a 
 
 It is likely that at some point you will realize that one PC, even the fastest one, won't suffice to do the work you require. As an example, if the analysis of one sample takes a day and you have thousands of samples to analyze, it will take several years! Using HPC clusters provided by Digital Alliance of Canada might be an option in this case. It would take just a few days to complete all analyses with a thousand of CPUs. Such computational resources are available and free for academic researchers. I encourage you to attend our ACENET basics sessions next week where we will introduce these resources and explain how to use them.
 
-## 23. Keeping your computer in good shape 
+## 26. Keeping your computer in good shape 
 In the past computers required to be regularly powered down or rebooted. New computers can go without power cycling for months. However, if computer becomes unusually sluggish, or some programs do not behave as they should even if they are restarted then rebooting your computer is the first thing you should do before trying to solve the problem..
 
 - Cleanup storage. You can free up disk space on your hard drive by running a disk cleanup. This will clean out temporary files as well as delete big attachments and other types of files.
@@ -105,14 +104,14 @@ sudo apt-get autoremove
 - Keep your anti-virus software up-to-date and frequently scan your computer for viruses.
 
 # Security
-## 24. Security: Malware and Viruses 
+## 27. Security: Malware and Viruses 
 Do you need an Antivirus? It depends on the operating system. Windows and macOS include protection against viruses, in one way or another.
 
 Microsoft Defender Antivirus in addition to providing antivirus protection, also manages other security features such as Windows Firewall. However it was reported that is has some significant limitations and you can improve your protection by installing a third-party antivirus such as BitDefender, Avast, AVG.
 
 MacOS Includes Security by Design. The operating system resides on a read-only drive partition, separate from all other programs. To infect another program, a virus needs to modify that program, and that’s not allowed in macOS. To steal private data, a banking Trojan must read memory belonging to your browser, which is likewise not allowed. In the macOS environment, apps are isolated, and limited to accessing their own resources. macOS includes a technology called Gatekeeper, that's designed to ensure that only trusted software runs on your Mac. While Macs aren’t as vulnerable as Windows boxes they still can get malware. 
 
-## 25. Security: Passwords
+## 28. Security: Passwords
 Use a different password for each account, never use same password for several sites. When breaches expose credentials, all accounts that share a password are exposed. 
 
 Of course it is impossible to remember all passwords, so get a password manager like DashLane, LastPass or RoboForm.  With a password manager, you don't have to remember strong, unique passwords for all your accounts. The password manager stores them for you and even helps you generate new, random ones. A password manager is like a digital keyring, it keeps everything in one secure place for easier access.
@@ -124,20 +123,21 @@ Some password managers offering free options:
 [LastPass](https://www.lastpass.com/pricing)
 [RoboForm](https://www.roboform.com)
 
-## 26. Security: Multifactor Authentication 
+## 29. Security: Multifactor Authentication 
 For accounts that require enhanced security, enable MFA if it is supported.
 There are many ways to enable MFA, such as Authenticator Apps, [USB Security Keys](https://www.yubico.com/), Email or SMS login confirmations, Biometrics.
 
 You just need to pick a method that works for your services. With two-factor authentication, it is impossible for someone to break into your account with a stolen password.
 
-## 27. Security: Phishing
+## 30. Security: Phishing 
+
 Always be suspicious of any unexpected email or unusual request – especially if it concerns finances, log-in credentials, or clicking a file or link. Don’t open attachments from unknown users, poorly written/vague emails. Think twice before clicking on any links!  Phishing emails today are the result of well-organized criminal businesses, and they are very inventive in crafting messages that get opened. When in doubt look at the email header to see where it actually came from and check if the domain it came from is black listed.
 Never give your password to anyone. You will not be asked for your password by the admin, they shouldn't have access to it, and they don't need it for anything.
 
-## 28. Backups
+## 31. Backups
 In terms of backups, experts recommend making three copies of your data: two local copies (on different devices) and one offsite copy. It typically means having a backup of your data on an external drive, a backup on a cloud service, and your original data on your computer.
 
-## 29. Identifying and resolving problems.
+## 32. Identifying and resolving problems.
 If something does not work as expected ..
 
 When it comes to specific error codes and very detailed problems, Google can be a great resource. It is less useful for questions like "my PC is running slowly". In your search for a solution to your problem, remember to include all the relevant details.
@@ -150,7 +150,7 @@ Windows have built-in roll-back feature `System Restore`. It will undo recent ch
 
 You can find written instructions and video tutorials on how to do most tech related things.
 
-## 30. Task Manager
+## 33. Task Manager
 
 The Windows Task Manager is a powerful tool, allowing to manage tasks and startup programs as well as monitor system. Using it, you can find out how your computer is performing and what programs are running. This program reports the CPU load, GPU load, logged-in users, and details of I/O processes.
 
@@ -163,7 +163,7 @@ If you want to force close offending tasks, highlight them and press the delete 
 
 The equivalent of `Task Manager` on MacOS is `Activity Monitor`.
 
-## 31. When to repair your computer and when to replace it.
+## 34. When to repair your computer and when to replace it.
 It's tempting to look for a new computer when a computer slows down or shows other signs of trouble.
 But in order to get the most out of your investment, you probably want to extend its lifespan as long as you can.
 
@@ -187,9 +187,9 @@ To determine whether an upgrade is worth your money, look at how much it will co
 
 <-----------------> 1h 50min
 
-## 32.Watch our schedule of training sessions to learn how to use different software
+## 35. Watch our schedule of training sessions to learn how to use different software
 
-We offer training sessions to teach you how to use different widely used application software such as Excel, OpenRefine, Python, R, Matlab, Paraview, and more.
+We offer training sessions to teach you how to use different widely used application software such as Excel, OpenRefine, Python, R, Matlab, Paraview, and more. On this last slide, you will find links to our training sessions as well as to self-study materials.
 
 ## 33. Keyboard
 
