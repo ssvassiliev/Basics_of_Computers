@@ -23,26 +23,29 @@ keypoints:
 
 https://ssvassiliev.github.io/Basics_of_Computers/
 
-1. The first exascale supercomputer Frontier was built with what type of CPUs? (On slide 3, you can find the answer)
+Slides:
+https://docs.google.com/presentation/d/1t1ILcQ-vHJ76J8Bm_qzcBnlbRUGs3HjOmRz0ePNJSsg/edit?usp=sharing
+
+?. The first exascale supercomputer Frontier was built with what type of CPUs? (On slide 3, you can find the answer)
     1. Intel Xeon
     2. AMD Epyc
     3. IBM Power
     4. Apple M2
 
-2. What components are required for a computer to function?
+1. What components are required for a computer to function?
     1. Hardware, device drivers, operating system
     2. Operating system, application software, hardware
     3. Hardware, application software
     4. Boot loader, operating system, application software, CPU
 
-3. What numeric code would you use if you wanted the permission to be
+2. What numeric code would you use if you wanted the permission to be
 'rwx -w- r-x'? 
     1. 764
     2. 725
     3. 735
     4. 825
 
-4. How many charge levels are used in a triple level flash memory cell? 
+3. How many charge levels are used in a triple level flash memory cell? 
     1. 3
     2. 6
     3. 8
@@ -51,7 +54,7 @@ https://ssvassiliev.github.io/Basics_of_Computers/
 This lesson is intended to lead you through some basic computer concepts that will give you a better understanding of the computer. We will learn what is inside a computer and how it works, how to use and maintain a computer, and how to handle possible issues.
 
 ## 3. What is a computer?
-In its original sense, the term "computer" referred to someone who performed mathematical calculations. In doing their jobs, human computers were supposed to follow fixed rules and they had no authority to alter them. The term was later applied to mechanical devices that replaced human computers.{: .instructor_notes}
+In its original sense, the term "computer" referred to someone who performed mathematical calculations. In doing their jobs, human computers were supposed to follow fixed rules and they had no authority to alter them. The term was later applied to mechanical devices that replaced human computers.
 
 Today a computer is a programmable device that  
 - accepts data as input
@@ -88,7 +91,7 @@ In recent years mini computers evolved into a midrange computers or midrange ser
 ### Microcomputers
 A microcomputer is a small, personal computer that is typically used by only one person at a time. 
 
-### Poll #1
+### Poll #?
 1. The first exascale supercomputer Frontier was built with what type of CPUs? (On slide 3, you can see the answer)
     1. Intel Xeon
     2. AMD Epyc +
@@ -99,7 +102,7 @@ A microcomputer is a small, personal computer that is typically used by only one
 There are three components that every computer needs to function, regardless of its type:
 
 1. Hardware
-2. Operating system (system software + device drivers)
+2. Operating system (it includes system software + device drivers)
 3. Application software
 
 ### Computer Hardware 
@@ -110,7 +113,7 @@ Software, in its most general sense, is a set of instructions or programs instru
 
 Software consists of instructions that upon execution instruct hardware to perform tasks for which it was designed. At its lowest level an executable program is composed of machine language instructions specific to a particular processor. 
 
-A machine language consists of groups of binary values signifying processor instructions that change the state of the computer from its preceding state. For example an instruction may change the value stored at the particular memory location inside the computer. This effect is not directly observable by the user. An instruction may also cause something appear on the display of the computer system. Such state change is visible for the user. The processor carries out instructions in the order they are provided unless it is instructed to jump to a different instruction or interrupted. 
+A machine language consists of groups of binary values describing processor instructions that change the state of the computer from its preceding state. For example an instruction may change the value stored at the particular memory location inside the computer. This effect is not directly observable by the user. An instruction may also cause something appear on the display of the computer system. Such state change is visible for the user. The processor carries out instructions in the order they are provided unless it is instructed to jump to a different instruction or interrupted. 
 
 There are two types of software: system software, also known as an operating system, and application software.
 
@@ -132,7 +135,7 @@ Despite the fact that a lot of things work across different platforms, some more
 
 Hardware and software require each other and neither can be used without another.
 
-## Poll #2
+## Poll #1
 2. What components are required for a computer to function?
     1. Hardware, device drivers, operating system
     2. Operating system, application software, hardware +

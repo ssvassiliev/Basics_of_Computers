@@ -74,7 +74,7 @@ The RAM can be compared to your desk's working area. When it's full, you need to
 
 RAM is called "volatile" memory since the information stored in it disappears when the computer is turned off.
 
-RAM is plugged into special slots on the motherboard. There is a wide link (known as bus) from the memory to the CPU. The memory bus is part of the collection of transport buses that transfer information between parts of the PC at high speeds. Each motherboard has a fixed number of slots for RAM, most often 2 or 4 slots. It is only possible to use certain types and sizes of RAM with specific motherboards, so check the specifications of your motherboard before you purchase. 
+RAM is plugged into special slots on the motherboard. There is a wide link (known as bus) from the memory to the CPU (DDR4 bus can transfer 64 data bits in one transaction). The memory bus is part of the collection of transport buses that transfer information between parts of the PC at high speeds. Each motherboard has a fixed number of slots for RAM, most often 2 or 4 slots. It is only possible to use certain types and sizes of RAM with specific motherboards, so check the specifications of your motherboard before you purchase. 
 
 ![](../fig/aorus.jpg)
 
@@ -102,6 +102,7 @@ For example, in ASCII upper case literals A-Z are represented by decimal numbers
 
 [ASCII, hex, binary, decimal, base64 converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
 
+[Dec to binary](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
 
 ## 11. Hexadecimal number system
 If you worked with image editing or webpage design you are probably familiar with Hexadecimal Colors. In this color coding system intensity of each of the three primary colors (red, green and blue) is represented by two hexadecimal digits between 00 and FF to create 255 possible values, thus resulting in more than 16 million possible colors. 
@@ -118,7 +119,7 @@ The major disadvantage of Hexadecimal number system is that it may not be an eas
 
 ## 12. Octal number system
 
-A pactical example - Linux file permissions. 
+The octal number system is a type of number system, that has a base value equal to 8. Let's consider a practical example of using it - Linux file permissions. 
 
 Securing your data stored on a MAC or Linux system, requires understanding file permissions: how they work, and how to change them. Permissions determine who can access files and directories and how. Linux has three types of permissions: read, write, and execute. The permissions are each controlled by a single bit that can be toggled on or off (0 - no permission, 1 - permission allowed).
 
@@ -133,11 +134,11 @@ Permissions are thus described by three groups of binary triplets:
 read write execute   read write execute    read write execute
   1     1     1  (7)  1     1      0  (6)    1    0     0 (4)  
 
-Because each binary triplet has 8 values in the range 0 - 7, it is convenient to represent it with an octal number. As a result, a three-digit octal number represents a specific file permission (for example 764). The first digit is for owner permissions, the second digit is for group permissions, and the third is for other users.
+Because each binary triplet has 8 values in the range 0 - 7, it is convenient to represent it with a single octal number. As a result, a three-digit octal number represents a complete specific file permission for all groups of users (for example 764). The first digit is for owner permissions, the second digit is for group permissions, and the third is for other users.
 
-- Only one set of rwx bits are ever used. User takes precedence over group which takes precedence over other. 
+Note: - Only one set of rwx bits are ever used. User takes precedence over group which takes precedence over other. 
 
-## Poll #3:
+## Poll #2:
 What numeric code would you use if you wanted the permission to be
 'rwx -w- r-x'? 
 1. 764
@@ -219,7 +220,7 @@ Flash memory can store more than one bit in a single cell. For example in SSD wi
 
 Memory that uses multi-level cells has a higher density of information stored, so the price per gigabyte is lower when compared to memory that uses single level cells. Multilevel cell technologies enable high capacity SSDs to be manufactured. While MLC memory has the advantage of being less expensive than SLC, it is slower, has higher power consumption, higher error rate and its lifespan is shorter. This is why high-performance memory cards still use SLC flash technology.
 
-## Poll #4.
+## Poll #3.
 3. How many charge levels are used in a triple level flash memory cell? 
     1. 3
     2. 6
