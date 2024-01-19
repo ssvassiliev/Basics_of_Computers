@@ -84,7 +84,6 @@ Red Hat Package Manager, Front end is  zypper.
 And the last OS we will look at is ChromeOS. The ChromeOS operating system is a specialized operating system developed by Google exclusively for Chromebooks. Unlike traditional operating systems ChromeOS heavily relies on cloud-based services. The ChromeOS operating system was initially limited to apps that could run inside the Chrome web browser. Over the years ChromeOS has evolved into a modern and versatile operating system. Besides supporting all Chrome-based stuff, ChromeOS can also connect to the Play Store and install almost any Android app. Linux applications can now be run on some Chromebook models as well. It is even possible to run Windows applications on high-end Chromebooks (using commercial software such as Crossover and Parallels).
 
 ### 20. OS comparison: filesystems and command shells.
-
 #### File Systems.
 Let's compare operating systems more closely.
 Unlike MacOS and Linux, Windows organizes files differently. Windows uses "drives".
@@ -135,7 +134,7 @@ Windows, on the other hand, is considered the least secure and stable of the thr
 A feature that sets Windows apart from other operating systems is its registry. The Windows registry is a database that contains all application settings. This is often referred to as a 'single point of failure' - a part of a system that, if it fails, will stop the entire system from working. Registry is susceptible to corruption from viruses, faulty hard drives, or even improper application uninstallation. Because it is a single global database, it affects the entire operating system. As you install applications, the registry grows and registry searches take longer, slowing down your computer as a result. As you remove applications, pointers to deleted files often remain in the registry, slowing down your computer.
 
 #### Which OS is the "best"?
-Like I said before, the operating system doesn't matter much for most people these days. There is no such thing as the "best" OS, so you're better off using the one you're most comfortable with. Even so, each OS is still unique. There are some scientific applications that aren't available on all platforms, and some that don't work well on all operating systems. You may be in a situation where it's a good idea to use several OSes at the same time. For example, you may use Linux working on HPC clusters coding and Windows for Office applications.
+The operating system doesn't matter much for most people these days. There is no such thing as the "best" OS, so you're better off using the one you're most comfortable with. Even so, each OS is still unique. There are some scientific applications that aren't available on all platforms, and some that don't work well on all operating systems. You may be in a situation where it's a good idea to use several OSes at the same time. For example, you may use Linux working on HPC clusters coding and Windows for Office applications.
 
 #### Exploring OS in a virtual machine 
 Using a virtual machine may be a good option if you are undecided between different operating systems or want to try another OS. VirtualBox lets you run multiple operating systems simultaneously on the same machine. It is important to note, however, that the virtualized OS is significantly slower than the native.
