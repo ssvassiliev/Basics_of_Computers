@@ -15,7 +15,7 @@ keypoints:
 ---
 
 ### 23. System requirements.
-Now that we have discussed operating systems, let's discuss how to use them. When you want to use a piece of software that did not come with your compute you must install it. 
+Now that we have discussed operating systems, let's discuss how to use them. When you want to use a piece of software that did not come with your computer you must install it. 
 
 All computer software requires certain hardware components or other resources on a computer in order to function effectively. Most software vendors list minimal and recommended system requirements. The system requirements are usually viewed as guidelines rather than absolute rules.
 Generally, system requirements indicate which computer configurations will be most suitable for a particular software. 
@@ -74,9 +74,7 @@ If something does not work as expected you need to identify and fix the problem.
 
 ## 26. Keeping your computer in good shape 
 
-- It is important to update your operating system and software on a regular basis. Why should you do this? The most important reason is security. Hackers discover new security flaws on a daily basis and exploit them to commit attacks. Upgrading to the latest version OS will patch known security flaws and make your computer more secure overall. 
-
-Further, you will have access to the latest features, including increased stability and responsiveness. The latest version of your OS may make it easier for you to install new applications. 
+- It is important to update your operating system and software on a regular basis. Why should you do this? The most important reason is security. Hackers discover new security flaws on a daily basis and exploit them to commit attacks. Upgrading to the latest version OS will patch known security flaws and make your computer more secure overall. Further, you will have access to the latest features, including increased stability and responsiveness. The latest version of your OS may make it easier for you to install new applications. 
 
 - Keep your anti-virus software up-to-date and frequently scan your computer for viruses.
 
@@ -100,47 +98,7 @@ Remove no longer needed packages
 sudo apt-get autoremove
 ~~~
 
-# Security
-
-## 27. Security: Passwords
-Use a different password for each account, never use same password for several sites. When breaches expose credentials, all accounts that share a password are exposed. 
-
-Of course it is impossible to remember all passwords, so get a password manager like DashLane, LastPass or RoboForm.  With a password manager, you don't have to remember strong, unique passwords for all your accounts. The password manager stores them for you and even helps you generate new, random ones. A password manager is like a digital keyring, it keeps everything in one secure place for easier access.
-
-Generate a strong master password at least 8 chars lond with 3 types of characters. Never use a dictionary word or even a part of a word for passwords. These are very easy to crack. Alternatively you can use passphrases. Passphrase is easy to remember because it uses a combination of dictionary words but provide a good level of security.
-
-Some password managers offering free options:
-[Dashlane](https://www.dashlane.com)
-[LastPass](https://www.lastpass.com/pricing)
-[RoboForm](https://www.roboform.com)
-
-
-## 28. Security: Malware and Viruses 
-Do you need an Antivirus? It depends on the operating system. Windows and macOS include protection against viruses, in one way or another.
-
-Microsoft Defender Antivirus in addition to providing antivirus protection, also manages other security features such as Windows Firewall. However it was reported that is has some significant limitations and you can improve your protection by installing a third-party antivirus such as BitDefender, Avast, AVG.
-
-MacOS Includes Security by Design. The operating system resides on a read-only drive partition, separate from all other programs. To infect another program, a virus needs to modify that program, and that’s not allowed in macOS. To steal private data, a banking Trojan must read memory belonging to your browser, which is likewise not allowed. In the macOS environment, apps are isolated, and limited to accessing their own resources. macOS includes a technology called Gatekeeper, that's designed to ensure that only trusted software runs on your Mac. While Macs aren’t as vulnerable as Windows boxes they still can get malware. 
-
-
-## 29. Security: Multifactor Authentication 
-For accounts that require enhanced security, enable MFA if it is supported.
-There are many ways to enable MFA, such as Authenticator Apps, [USB Security Keys](https://www.yubico.com/), Email or SMS login confirmations, Biometrics.
-
-You just need to pick a method that works for your services. With two-factor authentication, it is impossible for someone to break into your account with a stolen password.
-
-## 30. Security: Phishing 
-
-Always be suspicious of any unexpected email or unusual request – especially if it concerns finances, log-in credentials, or clicking a file or link. Don’t open attachments from unknown users, poorly written/vague emails. Think twice before clicking on any links!  Phishing emails today are the result of well-organized criminal businesses, and they are very inventive in crafting messages that get opened. When in doubt look at the email header to see where it actually came from and check if the domain it came from is black listed.
-Never give your password to anyone. You will not be asked for your password by the admin, they shouldn't have access to it, and they don't need it for anything.
-
-## 31. Backups
-There are many ways that data can be lost, such as hard drive failures, ransomware attacks, or even human error or theft. Don't let your important computer data disappear. Make a copy or archive of it regularly. Be sure to store backup copies separately from an original device.
-
-It is recommended that you make two copies of your data: one local copy (on a different device) and one offsite copy. It typically means having a backup of your data on an external drive, a backup on a cloud service, and your original data on your computer.
-
-
-## 32. Task Manager
+## 27. Task Manager
 
 The Windows Task Manager is a powerful tool, allowing to manage tasks and startup programs as well as monitor system. Using it, you can find out how your computer is performing and what programs are running. This program reports the CPU load, GPU load, logged-in users, and details of I/O processes.
 
@@ -153,6 +111,43 @@ If you want to force close offending tasks, highlight them and press the delete 
 
 The equivalent of `Task Manager` on MacOS is `Activity Monitor`.
 
+# Security
+## 28. Security: Passwords
+It is very important to keep your computer secure when you are working on it. The topic of computer security has many aspects, we will start with passwords.
+
+Use a different password for each account, never use same password for several sites. When breaches expose credentials, all accounts that share a password are exposed. 
+
+Of course it is impossible to remember all passwords, so get a password manager like DashLane, LastPass or RoboForm.  With a password manager, you don't have to remember strong, unique passwords for all your accounts. The password manager stores them for you and even helps you generate new, random ones. A password manager is like a digital keyring, it keeps everything in one secure place for easier access.
+
+Generate a strong master password at least 8 chars lond with 3 types of characters. Never use a dictionary word or even a part of a word for passwords. These are very easy to crack. Alternatively you can use passphrases. Passphrase is easy to remember because it uses a combination of dictionary words but provide a good level of security.
+
+Some password managers offering free options:
+[Dashlane](https://www.dashlane.com)
+[LastPass](https://www.lastpass.com/pricing)
+[RoboForm](https://www.roboform.com)
+
+## 29. Security: Multifactor Authentication 
+For accounts that require enhanced security, enable MFA if it is supported.
+There are many ways to enable MFA, such as Authenticator Apps, [USB Security Keys](https://www.yubico.com/), Email or SMS login confirmations, Biometrics.
+
+You just need to pick a method that works for your services. With two-factor authentication, it is impossible for someone to break into your account with a stolen password.
+
+## 30. Security: Malware and Viruses 
+Do you need an Antivirus? It depends on the operating system. Windows and macOS include protection against viruses, in one way or another.
+
+Microsoft Defender Antivirus in addition to providing antivirus protection, also manages other security features such as Windows Firewall. However it was reported that is has some significant limitations and you can improve your protection by installing a third-party antivirus such as BitDefender, Avast, AVG.
+
+MacOS Includes Security by Design. The operating system resides on a read-only drive partition, separate from all other programs. To infect another program, a virus needs to modify that program, and that’s not allowed in macOS. To steal private data, a banking Trojan must read memory belonging to your browser, which is likewise not allowed. In the macOS environment, apps are isolated, and limited to accessing their own resources. macOS includes a technology called Gatekeeper, that's designed to ensure that only trusted software runs on your Mac. While Macs aren’t as vulnerable as Windows boxes they still can get malware. 
+
+## 31. Security: Phishing 
+
+Always be suspicious of any unexpected email or unusual request – especially if it concerns finances, log-in credentials, or clicking a file or link. Don’t open attachments from unknown users, poorly written/vague emails. Think twice before clicking on any links!  Phishing emails today are the result of well-organized criminal businesses, and they are very inventive in crafting messages that get opened. When in doubt look at the email header to see where it actually came from and check if the domain it came from is black listed.
+Never give your password to anyone. You will not be asked for your password by the admin, they shouldn't have access to it, and they don't need it for anything.
+
+## 32. Backups
+There are many ways that data can be lost, such as hard drive failures, ransomware attacks, or even human error or theft. Don't let your important computer data disappear. Make a copy or archive of it regularly. Be sure to store backup copies separately from an original device.
+
+It is recommended that you make two copies of your data: one local copy (on a different device) and one offsite copy. It typically means having a backup of your data on an external drive, a backup on a cloud service, and your original data on your computer.
 
 ## 33. How to choose the right computer
 Choosing a computer is always about making trade-off decisions. In most cases, you will have to make some sacrifices unless you don't care about cost. Depending on your needs, you can choose between:
