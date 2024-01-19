@@ -134,9 +134,11 @@ There are three sets of permissions applied to different groups of users.
 
 Permissions are thus described by three groups of binary triplets:
 
+```
       owner              group                others 
 read write execute   read write execute    read write execute
   1     1     1  (7)  1     1      0  (6)    1    0     0 (4)  
+```
 
 Because each binary triplet has 8 values in the range 0 - 7, it is convenient to represent it with a single octal number. As a result, a three-digit octal number represents a complete specific file permission for all groups of users (for example 764). The first digit is for owner permissions, the second digit is for group permissions, and the third is for other users.
 

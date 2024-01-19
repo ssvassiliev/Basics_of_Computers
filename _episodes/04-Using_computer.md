@@ -30,14 +30,6 @@ MAC:
 - Apple -> About this MAC, click "More info" if needed
 
 ### 24. File extensions.
-
-- text files: doc, pdf, rtf, txt 
-- system files: sys, cfg, dll, ini, tmp, ico
-- video files: avi, mpg, wmf, flv, mp4, vob
-- audio files: mp3, flac, alac, wav, pcm, ogg
-- programming languages: c, f, R, py, java, m, jl
-- internet-related files: html, css, cer
-
 A file extension is a suffix added to the name of a file to indicate what type of data is stored in the file. A file extension comes after the period in a filename and is typically made up of three or four characters, however there is no strict convention about the length of file extension. They can be as short as one character (.c, .m, .f). 3-4 character extensions are simply convenient. They are not too long, easy to recognize and remember. At the same time they permit to describe a variety of data types such as txt, doc, png, pdf, csv etc. A filename can include multiple periods.  In most cases, the extension includes only the characters after the final period. 
 
 There are exceptions, however, such as the extension .tar.gz. This extension indicates that the file contains a "tape archive" .tar data file which is compressed with gzip.  So to read such a file you need first to unzip it and then unpack the archive. 
@@ -47,6 +39,13 @@ An operating system might rely solely on the file extension to determine which a
 If you have a file with an extension that is not recognized by OS, you can manually associate it with a program. 
 
 Example - .ent associate with VS Code.
+
+- text files: doc, pdf, rtf, txt 
+- system files: sys, cfg, dll, ini, tmp, ico
+- video files: avi, mpg, wmf, flv, mp4, vob
+- audio files: mp3, flac, alac, wav, pcm, ogg
+- programming languages: c, f, R, py, java, m, jl
+- internet-related files: html, css, cer
 
 ### 25. Identifying and resolving problems.
 
@@ -302,4 +301,17 @@ Here are some useful common keyboard shortcuts. Windows and Mac OS have virtuall
 
 #### [chocolatey](https://chocolatey.org)
 Chocolatey is an open-source package manager for Windows. It builds on top of existing Windows technologies like PowerShell and NuGet. Chocolatey operates via command-line interface, which makes it easy to automate software installation and management.
+
+## Downloading files
+### Where is the file I just downloaded?
+
+Files you've downloaded are automatically saved in the Downloads folder. In Windows this folder is usually located in C:\Users\Your_account\Downloads.
+In MAC OS /Users/Your_account/Downloads
+ 
+### Can I download files to different places?
+
+Internet browsers allow you to specify where you want to download files.
+To configure Chrome or Firefox navigate to "Settings" -> "Download". 
+
+Here you can also configure browser to "Ask where to save each file before downloading"
 
