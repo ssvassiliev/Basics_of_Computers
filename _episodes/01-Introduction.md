@@ -21,6 +21,122 @@ keypoints:
 - "A computing platform is the stage on which a computer program can run"
 ---
 
+## File extensions.
+
+- text files: doc, pdf, rtf, txt 
+- system files: sys, cfg, dll, ini, tmp, ico
+- video files: avi, mpg, wmf, flv, mp4, vob
+- audio files: mp3, flac, alac, wav, pcm, ogg
+- programming languages: c, f, R, py, java, m, jl
+- internet-related files: html, css, cer
+
+A file extension is a suffix added to the name of a file to indicate what type of data is stored in the file. A file extension comes after the period in a filename and is typically made up of three or four characters, however there is no strict convention about the length of file extension. They can be as short as one character (.c, .m, .f). 3-4 character extensions are simply convenient. They are not too long, easy to recognize and remember. At the same time they permit to describe a variety of data types such as txt, doc, png, pdf, csv etc. A filename can include multiple periods.  In most cases, the extension includes only the characters after the final period. 
+
+There are exceptions, however, such as the extension .tar.gz. This extension indicates that the file contains a "tape archive" .tar data file which is compressed with gzip.  So to read such a file you need first to unzip it and then unpack the archive. 
+
+An operating system might rely solely on the file extension to determine which application to use to open it, or it might also rely on metadata stored inside a file. Each OS varies in terms of how it uses extensions when matching files to applications and the degree to which it uses them. Windows, for example, relies heavily on file extensions and windows programs cannot open files without them.  Linux and MAC rely on extensions when they're available, but they typically permit to open files without extensions as long as you are using the right program.
+
+If you have a file with an extension that is not recognized by OS, you can manually associate it with a program. 
+
+Example - .ent associate with VS Code.
+
+
+
+## Installing software:
+
+
+Installing a program means configuring your computer so that it can run a specific program. In most cases it is impossible to use an application without first installing it. A piece of software is installed when all of its files are placed in a folder on your computer and an executable file is placed where OS can find it. The installation process of software is highly dependent on the operating system. To install the software, you will use the installation file you downloaded; however, the format will vary depending on your operating system.
+
+
+To install software on Windows you will download the installation executable. This executable (.exe) file contains the tasks our computer must perform to install the software. To run the executable, click on the .exe file. Then follow the set-up instructions and answer the questions in the prompts regarding your desired installation features. 
+
+On MAC you will download Disk Image File .dmg. This  
+Windows - run setup program
+MAC - copy image to Applications
+Linux - use package manager or shell script  
+
+### System requirements.
+Now that we have discussed operating systems, let's discuss how to use them. When you want to use a piece of software that did not come with your compute you must install it. 
+
+All computer software requires certain hardware components or other resources on a computer in order to function effectively. Most software vendors list minimal and recommended system requirements. The system requirements are usually viewed as guidelines rather than absolute rules.
+Generally, system requirements indicate which computer configurations will be most suitable for a particular software. 
+
+The most common requirements are the physical computer resources, such as Processor, Memory, GPU, Storage and Operating System
+
+How to check if your computer meets a software's system requirements?
+Windows:
+- Task manager (Ctrl + Shift + Escape) or search for it. 
+- "About" section
+MAC: 
+- Apple -> About this MAC, click "More info" if needed
+
+## Downloading files
+
+### Where is the file I just downloaded?
+
+Files you've downloaded are automatically saved in the Downloads folder. In Windows this folder is usually located in C:\Users\Your_account\Downloads.
+In MAC OS /Users/Your_account/Downloads
+ 
+### Can I download files to different places?
+
+Internet browsers allow you to specify where you want to download files.
+To configure Chrome or Firefox navigate to "Settings" -> "Download". 
+
+Here you can also configure browser to "Ask where to save each file before downloading"
+
+
+## Trouble shooting techniques
+
+1. Gather information
+2. Identify the specific problem
+3. Determine the most probable cause
+4. Find and test a solution
+5. Verify that the issue is resolved 
+
+General Troubleshooting Tips:
+- Note any error messages you encounter.
+- The Google search engine works best when you search for specific information.
+- Restarting the computer is a good thing to try.
+- Be sure to install all available updates (OS, device drivers, software)
+- Start your computer in Safe Mode.
+- The last resort is to reinstall the operating system.
+
+When computer and software issues arise, troubleshooting is a systematic, step-by-step approach to detecting and fixing the problem.
+
+- When troubleshooting, the first step is gathering information on the issue, such as a behavior that is not desired or a lack of functionality expected. 
+
+- Identify exactly what is it that your computer is not doing that you want, or what is it doing that you don't want?
+
+- Think of possible causes for the problem and write them down.
+
+- Identifying the source of your computer issue will make finding a solution easier. Make a list of things that could be causing the problem. The process of elimination may help you figure out what's wrong. One by one, test each item on the list starting with the most likely cause of the problem.
+
+- Note any error messages you encounter. When your computer gives you an error message, make sure you write down as many details as you can. Using the Internet is a good place to start searching for a solution.  Other users may have encountered similar issues, and solutions are often posted online. Google's search engine is most effective when you search for specific details.   
+
+- Write down your steps: Once you start troubleshooting, you may want to take a note of each step you take. This way, you'll be able to remember exactly what you've done and can avoid repeating the same mistakes. 
+
+- Restart the computer. Restarting the computer is a good thing to try. This can solve a lot of basic issues you may experience with your computer.
+
+
+
+
++ What is hardware? What is software?
++ What are "minimum hardware requirements" and how do I tell if my computer meets them?
++ Why should I update my OS/Chrome/other software?
+- Where is my data stored? Is it backed up? How can I tell?
++ Where is the file I just downloaded? Can I download files to different places?
+- How do I install software? (I have a lot of mac users clicking on the dmg file every time)
++ What are file extensions? How can I link them to specific software programs?
+- How do I navigate the file structure using my OS's GUI? i.e., how to use Finder/File Explorer. How do I move and organize files? How do I create folders? etc.
+- How can OneDrive be used for collaboration?
++ How can I keep track of all my passwords?
++ How can I use Google effectively to help troubleshoot computer problems? (also required: actually reading error messages)
+- And perhaps some basic task to get them thinking about problem solving, like using a spreadsheet to calculate their weighted average or a mail merge or something
+Collapse
+
+
+
+Web Pages:
 https://ssvassiliev.github.io/Basics_of_Computers/
 
 Slides:

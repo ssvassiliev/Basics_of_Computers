@@ -16,22 +16,19 @@ keypoints:
 ---
 
 ## 18. Choosing an Operating System 
-We have learned what computers are made of, so let's move on to how to use a real one. In this section I will give you a quick overview of the operating systems and compare the three major operating systems that are currently available to help you decide which one is best for you.
+We have learned what computers are made of, so let's move on to how to use a real one. In this section I will give you a quick overview of the operating systems and compare major operating systems that are currently available to help you decide which one is best for you.
 
 In order to interact with your computer, you'll use software called an "operating system". Essentially, an OS is a program that stands between your computer and anything else you run on it. Among its essential functions are file management, memory management, process management, input-output management, and peripheral device control. Nowadays, a program can only concern itself with executing its core functions and let the operating system handle all basic system functionality.
 
-Windows, MacOS, and Linux are three of the most popular operating systems used on desktops and laptops today.
+Windows, MacOS, Linux and ChromeOS are four of the most popular operating systems used on desktops, laptops and chromebooks today.
 
 ### The usage share of operating systems 
-For desktop and laptop computers, Windows is the most used at 76%, followed by Apple's macOS at 16%, and Linux-based operating systems at 5%.
+For desktop and laptop computers, Windows is the most used at 69%, followed by Apple's macOS at 21%, Linux-based operating systems at 7% and ChromeOS at about 4%.
 
-Linux has completely dominated the supercomputer field since 2017, with all of the top 500 most powerful supercomputers in the world running a Linux distribution. Linux is also most used for (web) servers. Today, there are over 600 active Linux distros. The most widely used linux distributions are Ubuntu, Debian and CentOS
-
-Having used all three OSs, I don't think the differences between them are THAT great.
+Linux has completely dominated the supercomputer field since 2017, with all of the top 500 most powerful supercomputers in the world running a Linux distribution. Linux is also most used for (web) servers. Today, there are over 600 active Linux distros. The most widely used linux distributions are Ubuntu, Debian and CentOS. 
 
 Let's briefly review each of them individually and then look at some differences between these operating systems in terms of their design, features, and user interfaces.
 
-### 19. The three most widely used operating systems.
 #### Windows
 Windows is just the default OS for most people. It's the first one they get to know and it allows the user to easily run daily tasks such as internet browsing, gaming, office work. Windows is a private piece of software, meaning its source code isn't publicly available. Only Microsoft has access to it. At first, users had to pay if they wanted to buy a copy of Windows OS or upgrade their Windows version.  But with their latest releases users can access most of the software functionalities for free and only need to pay to access some particular features. Another thing to keep in mind is that Windows shows advertisements within the operating system. So it can be thought as an advertising platform as well.
 
@@ -52,7 +49,11 @@ As I mentioned above, Linux runs on most servers. It's used on most supercompute
 On the desktop/laptop side of things, Linux usage isn't nearly as widespread. Back in the day, the learning curve necessary to use Linux was considerably higher than for the other two OS options. This situation has been changing lately. Linux distributions put more focus on user-friendliness and it becomes easier to get computers with Linux installed by default.
 
 ### 19. The most widely used Linux distributions
-There are three families of Linux distributions: RedHat, Debian and openSUSE.Linux distributions share the same operating system and software at their core. It is the package management systems and tools that make the biggest difference between the distributions. The package management system is composed of two components: a low level tool for installing individual packages and a front end tool for performing more complex actions such as updating the operating system, installing groups of packages, and satisfying dependencies.
+There are three families of Linux distributions: RedHat, Debian and openSUSE. Linux distributions share the same operating system and software at their core. It is the package management systems and tools that make the biggest difference between the distributions. The package management system is composed of two components: a low level tool for installing individual packages and a front end tool for performing more complex actions such as updating the operating system, installing groups of packages, and satisfying dependencies.
+
+The lifetime of support is an important consideration when choosing a distribution. It is possible to try out the latest technologies and software with cutting edge distributions like Fedora, but the support time is short (13 months for Fedora). If you do your work on a computer, it is more practical to use a distribution offering a long support period, such as Ubuntu LTS - 5 years or Rocky Linux - 10 years.
+
+---> Skip the rest 
 
 #### RedHat-based Linux distributions.
 - [Red Hat Enterprise Linux](https://distrowatch.com/table.php?distribution=redhat). A distribution developed for the commercial market. The source code is open, but binary distribution is commercial. Focused on efficiency, security, and stability. 
@@ -78,10 +79,14 @@ The special feature of OpenSUSE is the wide range of configuration and managemen
 
 Red Hat Package Manager, Front end is  zypper.
 
-The lifetime of support is an important consideration when choosing a distribution. It is possible to try out the latest technologies and software with cutting edge distributions like Fedora, but the support time is short (13 months for Fedora). If you do your work on a computer, it is more practical to use a distribution offering a long support period, such as Ubuntu LTS - 5 years or Rocky Linux - 10 years.
+## 18. Choosing an Operating System
+### Chrome OS
+And the last OS we will look at is ChromeOS. The ChromeOS operating system is a specialized operating system developed by Google exclusively for Chromebooks. Unlike traditional operating systems ChromeOS heavily relies on cloud-based services. The ChromeOS operating system was initially limited to apps that could run inside the Chrome web browser. Over the years ChromeOS has evolved into a modern and versatile operating system. Besides supporting all Chrome-based stuff, ChromeOS can also connect to the Play Store and install almost any Android app. Linux applications can now be run on some Chromebook models as well. It is even possible to run Windows applications on high-end Chromebooks (using commercial software such as Crossover and Parallels).
 
 ### 20. OS comparison: filesystems and command shells.
+
 #### File Systems.
+Let's compare operating systems more closely.
 Unlike MacOS and Linux, Windows organizes files differently. Windows uses "drives".
 
 ![](../fig/windows_fs.png)
@@ -114,7 +119,7 @@ MacOS doesn't come with a default package manager. The most popular package mana
 
 Starting from Windows 10 Microsoft provides `App Installer` package manager.  One of the most popular third party package managers available for Windows is [Chocolatey](https://chocolatey.org).
 
-All package managers function in a similar way, but there are some differences in the syntax used for each. It's also important to mention that you can install and run a different package manager than the default.
+All package managers function in a similar way, but there are differences in the syntax used for each. It's also important to mention that you can install and run a different package manager than the default.
 
 #### Software compatibility
 Windows is the most widely used OS, and thanks to that most software is adapted to it. Even though less popular, MacOS is similar to Windows in this regard.
