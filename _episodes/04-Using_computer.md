@@ -23,9 +23,11 @@ Generally, system requirements indicate which computer configurations will be mo
 The most common requirements are the physical computer resources, such as Processor, Memory, GPU, Storage and Operating System
 
 How to check if your computer meets a software's system requirements?
+
 Windows:
 - Task manager (Ctrl + Shift + Escape) or search for it. 
 - "About" section
+
 MAC: 
 - Apple -> About this MAC, click "More info" if needed
 
@@ -56,7 +58,7 @@ If something does not work as expected you need to identify and fix the problem.
 
 - Identifying the source of your computer issue will make finding a solution easier. Make a list of things that could be causing the problem. The process of elimination may help you figure out what's wrong. One by one, test each item on the list starting with the most likely cause of the problem.
 
-- Note any error messages you encounter. When your computer gives you an error message, make sure you write down as many details as you can. Using the Internet is a good place to start searching for a solution.  Other users may have encountered similar issues, and solutions are often posted online. Google's search engine is most effective when you search for specific error codes and very detailed problems. It is less useful for general questions like "my PC is running slowly". In your search for a solution to your problem, remember to include all the relevant details.
+- Note any error messages you encounter. When your computer gives you an error message, make sure you write down as many details as you can. Using the Internet is a good place to start searching for a solution.  Other users may have encountered similar issues, and solutions are often posted online. Google is most effective when you search for specific error codes and very detailed problems. It is less useful for general questions like "my PC is running slowly". In your search for a solution to your problem, remember to include all the relevant details.
 
 - Locate the developer or manufacturer's official support forums. Search for things like model number or program name/version and what you want to do with it. You may find there's a particular fix available or advice from other users. For smaller freeware programs, you may even find posts from the developer.
 
@@ -72,7 +74,7 @@ If something does not work as expected you need to identify and fix the problem.
 
 ## 26. Keeping your computer in good shape 
 
-- It is important to update your operating system and software on a regular basis. Why should you do this? The most important reason is security. Hackers discover new security flaws on a daily basis and exploit them to commit attacks. Upgrading to the latest version OS will patch known security flaws and make you computer more secure overall. 
+- It is important to update your operating system and software on a regular basis. Why should you do this? The most important reason is security. Hackers discover new security flaws on a daily basis and exploit them to commit attacks. Upgrading to the latest version OS will patch known security flaws and make your computer more secure overall. 
 
 Further, you will have access to the latest features, including increased stability and responsiveness. The latest version of your OS may make it easier for you to install new applications. 
 
@@ -247,6 +249,7 @@ To determine whether an upgrade is worth your money, look at how much it will co
 ## 37. Watch our schedule of training sessions to learn how to use different software
 
 We offer training sessions to teach you how to use different widely used application software such as Excel, OpenRefine, Python, R, Matlab, Paraview, and more. On this last slide, you will find links to our training sessions as well as to self-study materials.
+## END
 
 ## 33. Keyboard
 
