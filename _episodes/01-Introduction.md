@@ -35,6 +35,12 @@ keypoints:
 - And perhaps some basic task to get them thinking about problem solving, like using a spreadsheet to calculate their weighted average or a mail merge or something
 Collapse
 
+### feedback 2024 
+- maybe explain more "safe mode"
+- wsl - how to setup linux account account to be the same as windows 
+- timing was good, skipped only "Choosing Hardware components"
+
+
 Web Pages:
 https://ssvassiliev.github.io/Basics_of_Computers/
 
