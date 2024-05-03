@@ -62,8 +62,7 @@ Could have been more basic, or split in 2 or more separate workshops with more t
 ### Glossary
 
 
-- HDD
-- SDD
+
 
 - ASCII
     - *American Standard Code for Information Interchange*; the most common 7-bit character encoding table. 
@@ -72,32 +71,35 @@ Could have been more basic, or split in 2 or more separate workshops with more t
 - Boot loader
     - A computer program that is responsible for booting a computer. Its main function is to place the operating system into memory.
 - Byte
-- CPU core
+    - The unit of digital information that typically contain eight bits.
 - CUDA
-- Device
+    - *Compute Unified Device Architecture*; a platform and programming model for general-purpose computing on graphics processors developed by NVIDIA.
 - Device driver   
     - A software program that controls a specific hardware device attached to a computer. By using drivers, operating systems and other computer programs can control hardware devices without knowing their specific details.
-- Distributions (Linux)
 - GUI  
     - *Graphical User Interface*; an interface that utilizes visual elements such as icons, buttons, or menus to interact with users.
-- Hardware
-- Instructions
+- HDD
+    - *Hard Disk Drive*; data storage device storing data on spinning magnetic disks.
 - IOPS
     - *Input/output Operatons Per Second*; unit of measurement showing how many read/write operations a storage device can perform per second.
+- Linux Distribution
+    - complete operating system that includes the kernel, system libraries, utilities application software, and a package management system.
 - Operating system  
     - A collection of programs that serve as the interface between computer hardware and you. The operating system controls the computer's tasks and manages system resources.
-- Packages
-- File-system Permissions
+- Permissions
     - File system attiributes that specify who can read, write, and execute a file or directorty. 
 - Platform
     - Data environment that allows a software to run.
 - RAM   
     - *Random Accsess Memory*;  short-term memory. As the computer operates, the information stored in RAM memory changes. Turning off the computer erases RAM memory.
-- streaming multiprocessor
+- Stream Multiprocessor
+    - individual processing unit within a GPU responsible for executing tasks in parallel. 
 - Server
+    - computer that can be accessed remotely over a network to provide resources and services to another computers (clients)
 - Shell  
     - A command-line interface to a Unix-like operating system. It works as an interpreter by accepting user input, executing a command based on it, and displaying its output after the command has completed.
-- Software 
+- SSD
+    - *Solid-State Drive*; data storage device storing data in electronic semiconductor-based  memory cells.
 - Windows Manager 
     - A system software which handles how windows created by various applications share the screen and which application gets user input at a given time.
 - WSL
