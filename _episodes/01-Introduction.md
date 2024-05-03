@@ -62,6 +62,7 @@ Could have been more basic, or split in 2 or more separate workshops with more t
 ### Glossary
 
 - WSL
+    - *Windows Subsystem for Linux* Windows feature allowing you to run a Linux environment on your Windows machine
 - HDD
 - SDD
 
