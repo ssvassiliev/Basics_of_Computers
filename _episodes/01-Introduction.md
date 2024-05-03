@@ -36,10 +36,64 @@ keypoints:
 Collapse
 
 ### feedback 2024 
-- maybe explain more "safe mode"
-- wsl - how to setup linux account account to be the same as windows 
+
+#### wsl - how to setup linux account account to be the same as windows
+
+Putting your WSL2 home directory on a Windows drive is not recommended because:
+
+- Your Linux home directory should be on a POSIX-compliant drive. 
+- Accessing Windows drives from WSL2 is extremely slow compared to the virtual ext4 filesystem. 
+
+- Maybe demo WSL?
+Add screen shots:
+Accessing Linux files from Windows
+You can type explorer.exe in the WSL terminal. This will oen files explorer in the current WSL directory 
+Not recommended, editing Linux files in Windows will corrupt them.
+You can use VSCode with Remote - WSL extension 
+
+Accessing Windows files from Linux
+/mnc/c/Users/...
+
+
 - timing was good, skipped only "Choosing Hardware components"
 
+Could have been more basic, or split in 2 or more separate workshops with more time spent explaining various terms (e.g. drivers, shells, packages distributions...)m glossary woulf be helpful
+
+### Glossary
+
+- WSL
+- HDD
+- SDD
+
+- ASCII
+- Bit
+- Boot loader
+- Byte
+- CPU core
+- CUDA
+- IOPS
+    - Input-ouptput Operaton;
+- Device
+- Device driver   
+    - A software program that controls a specific hardware device attached to a computer. By using drivers, operating systems and other computer programs can control hardware devices without knowing their specific details.
+- Distributions (Linux)
+- GUI  
+    - Graphical User Interface; an interface that utilizes visual elements such as icons, buttons, or menus to interact with users.
+- Hardware
+- Instructions
+- Operating system  
+    - A collection of programs that serve as the interface between computer hardware and you. The operating system controls the computer's tasks and manages system resources.
+- Packages
+- Permissions
+- Platform
+- RAM   
+    - *Random Accsess Memory*;  short-term memory. As the computer operates, the information stored in RAM memory changes. Turning off the computer erases RAM memory.
+- streaming multiprocessor
+- Server
+- Shell  
+    - A command-line interface to a Unix-like operating system. It works as an interpreter by accepting user input, executing a command based on it, and displaying its output after the command has completed.
+- Software 
+- Windows manager 
 
 Web Pages:
 https://ssvassiliev.github.io/Basics_of_Computers/

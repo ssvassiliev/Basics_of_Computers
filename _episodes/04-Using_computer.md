@@ -68,7 +68,9 @@ If something does not work as expected you need to identify and fix the problem.
 
 - Windows have built-in roll-back feature `System Restore`. It will undo recent changes to the registry and hardware and software setup of your computer, without affecting your personal files and holiday photos. It's a good place to start if something has very recently gone wrong.
 
-- `Safe Mode` can be used to uninstall programs or devices, or run fixes, if you can't get into Windows normally. Tap F8 during boot-up to access the boot menu. Choose `Safe Mode` to launch a special stripped-down version of Windows that keeps drivers and background utilities to a minimum. 
+- `Safe Mode` can be used to uninstall programs or devices, or run fixes, if you can't get into Windows normally. Safe mode starts Windows in a basic state, using a limited set of files and drivers. If a problem doesn't happen in safe mode, this means that default settings and basic device drivers aren't causing the issue. Observing Windows in safe mode enables you to narrow down the source of a problem, and can help you troubleshoot problems on your PC.
+
+Up until Windows 10, booting up a computer in safe mode was easy. Pressing F8 during boot-up allowed you to access the boot menu and select "Safe Mode". It is more difficult to enter "Safe mode" in Windows 11. For Windows 11 to give you the option to enter "Safe Mode", the boot process must fail three times in a row. (You can simulate failing to boot by turning off your computer while it boots). Three failures will cause Windows to restart into "Automatic Repair" mode,  where you can  activate "Safe Mode".
 
 - You can find written instructions and video tutorials on how to do most tech related things.
 
