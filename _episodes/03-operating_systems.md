@@ -5,7 +5,7 @@ exercises:
 questions:
 - "What are the functions of an operating system?"
 - "What are the most popular operating systems?"
-- "What are the main differences between operating systems?"
+- "What are the main differences  between operating systems?"
 objectives:
 - "Learn what is an operating system"
 - "Describe differences between operating systems?"
@@ -25,7 +25,7 @@ Windows, MacOS, Linux and ChromeOS are four of the most popular operating system
 ### The usage share of operating systems 
 For desktop and laptop computers, Windows is the most used at 69%, followed by Apple's macOS at 21%, Linux-based operating systems at 7% and ChromeOS at about 4%.
 
-Linux has completely dominated the supercomputer field since 2017, with all of the top 500 most powerful supercomputers in the world running a Linux distribution. Linux is also most used for (web) servers. Today, there are over 600 active Linux distros. The most widely used linux distributions are Ubuntu, Debian and CentOS. 
+Linux has completely dominated the supercomputer field since 2017, with all of the top 500 most powerful supercomputers in the world running Linux.
 
 Let's briefly review each of them individually and then look at some differences between these operating systems in terms of their design, features, and user interfaces.
 
@@ -36,15 +36,17 @@ Windows is just the default OS for most people. It's the first one they get to k
 MacOS is built on top of a UNIX-like OS, which is why it shares many common characteristics with Linux. Unlike Microsoft, whose idea is to make the product as widely available and easy to get to as possible, Apple aims to make their products top quality but pricey and incompatible with other hardware. You can't run any software you want in their hardware, and you can't install their software anywhere else than a Mac machine.
 
 #### Linux
-Linux is the base of many open-source OSs. Unlike Windows and MAC OS, Linux isn't a full operating system, but a collection of programs, utilities and a kernel that many open-source OSs share.
+Linux is the base of many open-source operating systems. Unlike Windows and MAC OS, Linux isn't a single full operating system, but a collection of programs, utilities and a kernel. 
 
-The kernel is the heart of any OS. It's the piece of software that interacts the closest with the hardware and the rest of the OS sits on top of it. The Kernel is responsible for low-level tasks such as disk management, memory management, task management, and so on.
+What is a kernel? The kernel is the core component of the operating system. It's the piece of software that interacts the closest with the hardware and has complete control over all processes in the system. The Kernel is responsible for low-level tasks such as disk management, memory management, task management, and so on.
 
-Making Linux free was was also an excellent choice from the software quality point of view. This is because it makes easy for thousands of developers and companies around the world to collaborate in order to improve the system.
+When you install Linux you have to choose from one of the available disributions. But what is a Linux distibution and why there are many Linux distributions?
+
+Overall, the Linux project has a huge amount of open source code developed by different communities. When Linux was originally developed distributions did not exist. So developers would download the kernel from kernel.org they'd use various complicated tools to compile it, install it on a system, then compile the individual pieces of software downloaded from FTP sites of various software development communities and assemble this all by hand. This was difficult to do. The developers realized that it would be very helpful to provide a distribution of tools that users can use to quickly setup Linux systems. It turned out there was not going to be just one distribution because there were many different use cases and people wanted different sets of tools for various purposes. So this day many different Linux distributions exist each with its own goal and criteria for selecting software included with the operating system.
 
 Some of the Linux distributions are known to be the most secure and stable OSs out there. They're used in key spheres such as banking, finance, government, and military.
 
-As I mentioned above, Linux runs on most servers. It's used on most supercomputers and also on most cellphones (as mentioned above, Android uses the Linux kernel).
+As I mentioned above, Linux runs on most servers. It's used on most supercomputers and also on most cellphones (Android is based on Linux kernel).
 
 On the desktop/laptop side of things, Linux usage isn't nearly as widespread. Back in the day, the learning curve necessary to use Linux was considerably higher than for the other two OS options. This situation has been changing lately. Linux distributions put more focus on user-friendliness and it becomes easier to get computers with Linux installed by default.
 
@@ -54,7 +56,6 @@ There are three families of Linux distributions: RedHat, Debian and openSUSE. Li
 The lifetime of support is an important consideration when choosing a distribution. It is possible to try out the latest technologies and software with cutting edge distributions like Fedora, but the support time is short (13 months for Fedora). If you do your work on a computer, it is more practical to use a distribution offering a long support period, such as Ubuntu LTS - 5 years or Rocky Linux - 10 years.
 
 ---> Skip the rest 
-
 #### RedHat-based Linux distributions.
 - [Red Hat Enterprise Linux](https://distrowatch.com/table.php?distribution=redhat). A distribution developed for the commercial market. The source code is open, but binary distribution is commercial. Focused on efficiency, security, and stability. 
 
@@ -99,6 +100,8 @@ While it doesn't make much of a difference to the end user, it's something to ke
 #### Command-Line Shells.
 Linux and macOS fall into the family of Unix-like systems that are designed as multitasking, multi-user operating systems. Furthermore, these systems are POSIX-compliant. The POSIX standard establishes compatibility between operating systems. As a result, all these systems offer standard UNIX facilities, and you can interact with them using the same commands.
 
+Using commands is very useful for automation of repetitive tasks, such as backing up files and running batches of data processing. Typically, you'll use a terminal to enter commands. A command-line interface to a Unix-like operating system is called a shell. It works as an interpreter by accepting user input, executing a command based on it, and displaying its output after the command has completed.
+
 Both Linux and Mac have bash or zsh as their default shells, while Windows has its own shell that uses a different syntax (Command Prompt and Powershell). Learning Bash is probably the best option, since this knowledge can be applied to most operating systems. Especially taking into account that Linux runs on most HPC clusters and you'd need to use the terminal to interact with these powerful computers. 
 
 [Bash tutorial](https://swcarpentry.github.io/shell-novice/)
@@ -106,7 +109,20 @@ Both Linux and Mac have bash or zsh as their default shells, while Windows has i
 ### 21. OS comparison: package managers, software, security.
 #### Package managers
 
-Linux comes with a package manager installed by default. A package manager is a piece of software that allows you to install, update, and uninstall programs from the terminal, just by entering a few commands. They're super helpful, especially when you're installing and uninstalling things constantly, as it's much more efficient to install programs through package managers than manually. 
+#### What is Software package?
+Software packages are collections of executable files, libraries, and other required resources bundled together with instructions for installation and configuration.
+
+Packages are pieces of software that contain everything you need to use them in a single archive. 
+#### What is package manager?
+
+Package manager is a software service installed atop of the operating system that that helps you to manage other software. Package managers download, install, and maintain various software packages as well as system packages (kernels, drivers, and utilities).    
+
+A package manager keeps track of what software is installed on your computer, and allows you to easily install new software, upgrade software to newer versions, or remove software that you previously installed. 
+
+
+Linux comes with a package manager installed by default. A package manager is a piece of software that allows you to install, update, and uninstall programs from the terminal, just by entering a few commands. 
+
+They're super helpful, especially when you're installing and uninstalling things constantly, as it's much more efficient to install programs through package managers than manually. 
 
 There are two file formats for Linux packages: DEB and RPM. Various Linux distributions use different formats. RPM is the package format for RedHat-based Linux family and openSUSE. DEB is the package format for Debian-based distributions.
 APT is the package manager for DEB packages while RPM packages are managed by yum or its successor dnf.

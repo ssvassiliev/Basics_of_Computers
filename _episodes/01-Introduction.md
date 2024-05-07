@@ -54,16 +54,11 @@ You can use VSCode with Remote - WSL extension
 Accessing Windows files from Linux
 /mnc/c/Users/...
 
-
 - timing was good, skipped only "Choosing Hardware components"
 
 Could have been more basic, or split in 2 or more separate workshops with more time spent explaining various terms (e.g. drivers, shells, packages distributions...)m glossary woulf be helpful
 
 ### Glossary
-
-
-
-
 - ASCII
     - *American Standard Code for Information Interchange*; the most common 7-bit character encoding table. 
 - Bit
@@ -74,18 +69,24 @@ Could have been more basic, or split in 2 or more separate workshops with more t
     - The unit of digital information that typically contain eight bits.
 - CUDA
     - *Compute Unified Device Architecture*; a platform and programming model for general-purpose computing on graphics processors developed by NVIDIA.
-- Device driver   
+- Device Driver   
     - A software program that controls a specific hardware device attached to a computer. By using drivers, operating systems and other computer programs can control hardware devices without knowing their specific details.
+- Distribution
+    - complete operating system that includes the kernel, system libraries, utilities application software, and a package management system.
 - GUI  
     - *Graphical User Interface*; an interface that utilizes visual elements such as icons, buttons, or menus to interact with users.
 - HDD
     - *Hard Disk Drive*; data storage device storing data on spinning magnetic disks.
 - IOPS
     - *Input/output Operatons Per Second*; unit of measurement showing how many read/write operations a storage device can perform per second.
-- Linux Distribution
-    - complete operating system that includes the kernel, system libraries, utilities application software, and a package management system.
+- Kernel
+    - the core component of an operating system that interacts closest with hardware and manages all processes. 
 - Operating system  
     - A collection of programs that serve as the interface between computer hardware and you. The operating system controls the computer's tasks and manages system resources.
+- Package 
+    - a collection of executable programs, libraries, and data, along with instructions for istalling and configuring the software.
+- Package manager 
+    - software installed in the operating system that downloads, installs, and maintains various software packages you choose to install as well as all other packages.
 - Permissions
     - File system attiributes that specify who can read, write, and execute a file or directorty. 
 - Platform
