@@ -144,13 +144,14 @@ Because each binary triplet has 8 values in the range 0 - 7, it is convenient to
 
 Note: - Only one set of rwx bits are ever used. Owner takes precedence over group which takes precedence over other. 
 
-## Poll #2:
+## Poll 2: Permissions  
 What numeric code would you use if you wanted the permission to be
 'rwx -w- r-x'? 
 1. 764
-2. 725 +
+2. 725
 3. 735
 4. 825
+
 
 ## 14. Storage devices (Storage media types and their characteristics).
 Bits can be stored on any medium that has at least two separate states. The three main types of storage media are magnetic, optical, and semiconductor.
@@ -227,11 +228,12 @@ Flash memory can store more than one bit in a single cell. For example in SSD wi
 
 Memory that uses multi-level cells has a higher density of information stored, so the price per gigabyte is lower when compared to memory that uses single level cells. Multilevel cell technologies enable high capacity SSDs to be manufactured. While MLC memory has the advantage of being less expensive than SLC, it is slower, has higher power consumption, higher error rate and its lifespan is shorter. This is why high-performance memory cards still use SLC flash technology.
 
-## Poll #3.
-3. How many charge levels are used in a triple level flash memory cell? 
-    1. 3
-    2. 6
-    3. 8
+## Poll 3: Flash memory   
+How many charge levels are used in a triple level flash memory cell? 
+1. 3
+2. 6
+3. 8
+
 
 
 

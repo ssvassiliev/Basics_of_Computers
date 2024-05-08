@@ -107,29 +107,33 @@ https://ssvassiliev.github.io/Basics_of_Computers/
 Slides:
 https://docs.google.com/presentation/d/1WuTsmnyvrDvQ_L_HpEgaFE5C235lWtG_e1chkc3YMHY/
 
-?. The first exascale supercomputer Frontier was built with what type of CPUs? Here's a hint: the answer is on the slide. 
-    1. Intel Xeon
-    2. AMD Epyc
-    3. IBM Power
-    4. Apple M2
+4: Frontier  
+The first exascale supercomputer Frontier was built with what type of CPUs? Here's a hint: the answer is on the slide. 
+1. Intel Xeon
+2. AMD Epyc
+3. IBM Power
+4. Apple M2
 
-1. What components are required for a computer to function?
-    1. Hardware, device drivers, operating system
-    2. Operating system, application software, hardware
-    3. Hardware, application software
-    4. Boot loader, operating system, application software, CPU
+1: Components   
+What components are required for a computer to function?
+1. Hardware, device drivers, operating system
+2. Operating system, application software, hardware
+3. Hardware, application software
+4. Boot loader, operating system, application software, CPU
 
-2. What numeric code would you use if you wanted the permission to be
+2: Permissions  
+What numeric code would you use if you wanted the permission to be
 'rwx -w- r-x'? 
-    1. 764
-    2. 725
-    3. 735
-    4. 825
+1. 764
+2. 725
+3. 735
+4. 825
 
-3. How many charge levels are used in a triple level flash memory cell? 
-    1. 3
-    2. 6
-    3. 8
+3: Flash memory   
+How many charge levels are used in a triple level flash memory cell? 
+1. 3
+2. 6
+3. 8
 
 ## 2. What is ACENET?
 If you haven’t heard of ACENET before, we are a non-profit organization funded by government and member institutions, with a mandate to support researchers at Canadian academic institutions and industry in their use of advanced digital tools and technologies, especially the national digital research infrastructure in Canada. 
@@ -179,12 +183,12 @@ In recent years mini computers evolved into a midrange computers or midrange ser
 ### Microcomputers
 A microcomputer is a small, personal computer that is typically used by only one person at a time. 
 
-### Poll #1
-1. The first exascale supercomputer Frontier was built with what type of CPUs? (Hint: the answer is on the slide "Types of computes")
-    1. Intel Xeon
-    2. AMD Epyc +
-    3. IBM Power
-    4. Apple M2
+### Poll: Frontier
+The first exascale supercomputer Frontier was built with what type of CPUs? (Hint: the answer is on the slide "Types of computes")
+1. Intel Xeon
+2. AMD Epyc +
+3. IBM Power
+4. Apple M2
 
 ## 6. What’s Needed for a Computer to Function? 
 There are three components that every computer needs to function, regardless of its type:
@@ -223,10 +227,11 @@ Despite the fact that a lot of things work across different platforms, some more
 
 Hardware and software require each other and neither can be used without another.
 
-## Poll #1
-2. What components are required for a computer to function?
-    1. Hardware, device drivers, operating system
-    2. Operating system, application software, hardware +
-    3. Hardware, application software
-    4. Boot loader, operating system, application software, CPU
+## Poll 1: Components   
+What components are required for a computer to function?
+1. Hardware, device drivers, operating system
+2. Operating system, application software, hardware
+3. Hardware, application software
+4. Boot loader, operating system, application software, CPU
+
 
