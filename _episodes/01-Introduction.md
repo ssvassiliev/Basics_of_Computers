@@ -39,24 +39,18 @@ Collapse
 
 #### wsl - how to setup linux account account to be the same as windows
 
-Putting your WSL2 home directory on a Windows drive is not recommended because:
-
-- Your Linux home directory should be on a POSIX-compliant drive. 
-- Accessing Windows drives from WSL2 is extremely slow compared to the virtual ext4 filesystem. 
-
-- Maybe demo WSL?
+- Putting your WSL2 home directory on a Windows drive is not recommended because:
+    - Your Linux home directory should be on a POSIX-compliant drive. 
+    - Accessing Windows drives from WSL2 is extremely slow compared to the virtual ext4 filesystem. 
 Add screen shots:
-Accessing Linux files from Windows
+
+#### Accessing Linux files from Windows. 
+This is NOT recommended, editing Linux files in Windows will corrupt them.
 You can type explorer.exe in the WSL terminal. This will oen files explorer in the current WSL directory 
-Not recommended, editing Linux files in Windows will corrupt them.
 You can use VSCode with Remote - WSL extension 
 
-Accessing Windows files from Linux
+#### Accessing Windows files from Linux
 /mnc/c/Users/...
-
-- timing was good, skipped only "Choosing Hardware components"
-
-Could have been more basic, or split in 2 or more separate workshops with more time spent explaining various terms (e.g. drivers, shells, packages distributions...)m glossary woulf be helpful
 
 ### Glossary
 - ASCII
@@ -111,9 +105,9 @@ Web Pages:
 https://ssvassiliev.github.io/Basics_of_Computers/
 
 Slides:
-https://docs.google.com/presentation/d/1t1ILcQ-vHJ76J8Bm_qzcBnlbRUGs3HjOmRz0ePNJSsg/edit?usp=sharing
+https://docs.google.com/presentation/d/1WuTsmnyvrDvQ_L_HpEgaFE5C235lWtG_e1chkc3YMHY/
 
-?. The first exascale supercomputer Frontier was built with what type of CPUs? (On slide 3, you can find the answer)
+?. The first exascale supercomputer Frontier was built with what type of CPUs? Here's a hint: the answer is on the slide. 
     1. Intel Xeon
     2. AMD Epyc
     3. IBM Power
@@ -137,10 +131,17 @@ https://docs.google.com/presentation/d/1t1ILcQ-vHJ76J8Bm_qzcBnlbRUGs3HjOmRz0ePNJ
     2. 6
     3. 8
 
-## 2. Objectives
+## 2. What is ACENET?
+If you haven’t heard of ACENET before, we are a non-profit organization funded by government and member institutions, with a mandate to support researchers at Canadian academic institutions and industry in their use of advanced digital tools and technologies, especially the national digital research infrastructure in Canada. 
+
+We provide access to HPC clusters and cloud computing. Our local support team can help you get started and get the most out of the avilable systems.
+
+Training is a big part of our work. We are offering a variety of workshops, most with a live coding component.
+
+## 3. Objectives
 This lesson is intended to lead you through some basic computer concepts that will give you a better understanding of the computer. We will learn what is inside a computer and how it works, how to use and maintain a computer, and how to handle possible issues.
 
-## 3. What is a computer?
+## 4. What is a computer?
 In its original sense, the term "computer" referred to someone who performed mathematical calculations. In doing their jobs, human computers were supposed to follow fixed rules and they had no authority to alter them. The term was later applied to mechanical devices that replaced human computers.
 
 Today a computer is a programmable device that  
@@ -149,7 +150,7 @@ Today a computer is a programmable device that
 - produces results as output
 - stores the results for future use
 
-## 4. What are the different types of computers? 
+## 5. What are the different types of computers? 
 There are different types of computers:
 - supercomputers
 - mainframes
@@ -178,14 +179,14 @@ In recent years mini computers evolved into a midrange computers or midrange ser
 ### Microcomputers
 A microcomputer is a small, personal computer that is typically used by only one person at a time. 
 
-### Poll #?
-1. The first exascale supercomputer Frontier was built with what type of CPUs? (On slide 3, you can see the answer)
+### Poll #1
+1. The first exascale supercomputer Frontier was built with what type of CPUs? (Hint: the answer is on the slide "Types of computes")
     1. Intel Xeon
     2. AMD Epyc +
     3. IBM Power
     4. Apple M2
 
-## 5. What components are required for a computer to function?
+## 6. What’s Needed for a Computer to Function? 
 There are three components that every computer needs to function, regardless of its type:
 
 1. Hardware

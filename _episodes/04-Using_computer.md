@@ -14,7 +14,7 @@ keypoints:
 - "Use a different password for each account and beef up security using MFA if possible."
 ---
 
-### 23. System requirements.
+### 27. System requirements.
 Now that we have discussed operating systems, let's discuss how to use them. When you want to use a piece of software that did not come with your computer you must install it. 
 
 All computer software requires certain hardware components or other resources on a computer in order to function effectively. Most software vendors list minimal and recommended system requirements. The system requirements are usually viewed as guidelines rather than absolute rules.
@@ -31,7 +31,7 @@ Windows:
 MAC: 
 - Apple -> About this MAC, click "More info" if needed
 
-### 24. File extensions.
+### 28. File extensions.
 A file extension is a suffix added to the name of a file to indicate what type of data is stored in the file. A file extension comes after the period in a filename and is typically made up of three or four characters, however there is no strict convention about the length of file extension. They can be as short as one character (.c, .m, .f). 3-4 character extensions are simply convenient. They are not too long, easy to recognize and remember. At the same time they permit to describe a variety of data types such as txt, doc, png, pdf, csv etc. A filename can include multiple periods.  In most cases, the extension includes only the characters after the final period. 
 
 There are exceptions, however, such as the extension .tar.gz. This extension indicates that the file contains a "tape archive" .tar data file which is compressed with gzip.  So to read such a file you need first to unzip it and then unpack the archive. 
@@ -49,8 +49,7 @@ Example - .ent associate with VS Code.
 - programming languages: c, f, R, py, java, m, jl
 - internet-related files: html, css, cer
 
-### 25. Identifying and resolving problems.
-
+### 29. Identifying and resolving problems.
 If something does not work as expected you need to identify and fix the problem. 
 - When troubleshooting, the first step is gathering information on the issue, such as a behavior that is not desired or a lack of functionality expected. 
 - Identify exactly what is it that your computer is not doing that you want, or what is it doing that you don't want?
@@ -74,7 +73,7 @@ Up until Windows 10, booting up a computer in safe mode was easy. Pressing F8 du
 
 - You can find written instructions and video tutorials on how to do most tech related things.
 
-## 26. Keeping your computer in good shape 
+## 30. Keeping your computer in good shape 
 
 - It is important to update your operating system and software on a regular basis. Why should you do this? The most important reason is security. Hackers discover new security flaws on a daily basis and exploit them to commit attacks. Upgrading to the latest version OS will patch known security flaws and make your computer more secure overall. Further, you will have access to the latest features, including increased stability and responsiveness. The latest version of your OS may make it easier for you to install new applications. 
 
@@ -100,8 +99,7 @@ Remove no longer needed packages
 sudo apt-get autoremove
 ~~~
 
-## 27. Task Manager
-
+## 31. Task Manager
 The Windows Task Manager is a powerful tool, allowing to manage tasks and startup programs as well as monitor system. Using it, you can find out how your computer is performing and what programs are running. This program reports the CPU load, GPU load, logged-in users, and details of I/O processes.
 
 The `Task Manager` can be launched by pressing `Control+Shift+Escape` and clicking `Start Task Manager`.
@@ -114,7 +112,7 @@ If you want to force close offending tasks, highlight them and press the delete 
 The equivalent of `Task Manager` on MacOS is `Activity Monitor`.
 
 # Security
-## 28. Security: Passwords
+## 32. Security: Passwords
 It is very important to keep your computer secure when you are working on it. The topic of computer security has many aspects, we will start with passwords.
 
 Use a different password for each account, never use same password for several sites. When breaches expose credentials, all accounts that share a password are exposed. 
@@ -128,30 +126,30 @@ Some password managers offering free options:
 [LastPass](https://www.lastpass.com/pricing)
 [RoboForm](https://www.roboform.com)
 
-## 29. Security: Multifactor Authentication 
+## 33. Security: Multifactor Authentication 
 For accounts that require enhanced security, enable MFA if it is supported.
 There are many ways to enable MFA, such as Authenticator Apps, [USB Security Keys](https://www.yubico.com/), Email or SMS login confirmations, Biometrics.
 
 You just need to pick a method that works for your services. With two-factor authentication, it is impossible for someone to break into your account with a stolen password.
 
-## 30. Security: Malware and Viruses 
+## 34. Security: Malware and Viruses 
 Do you need an Antivirus? It depends on the operating system. Windows and macOS include protection against viruses, in one way or another.
 
 Microsoft Defender Antivirus in addition to providing antivirus protection, also manages other security features such as Windows Firewall. However it was reported that is has some significant limitations and you can improve your protection by installing a third-party antivirus such as BitDefender, Avast, AVG.
 
 MacOS Includes Security by Design. The operating system resides on a read-only drive partition, separate from all other programs. To infect another program, a virus needs to modify that program, and that’s not allowed in macOS. To steal private data, a banking Trojan must read memory belonging to your browser, which is likewise not allowed. In the macOS environment, apps are isolated, and limited to accessing their own resources. macOS includes a technology called Gatekeeper, that's designed to ensure that only trusted software runs on your Mac. While Macs aren’t as vulnerable as Windows boxes they still can get malware. 
 
-## 31. Security: Phishing 
+## 35. Security: Phishing 
 
 Always be suspicious of any unexpected email or unusual request – especially if it concerns finances, log-in credentials, or clicking a file or link. Don’t open attachments from unknown users, poorly written/vague emails. Think twice before clicking on any links!  Phishing emails today are the result of well-organized criminal businesses, and they are very inventive in crafting messages that get opened. When in doubt look at the email header to see where it actually came from and check if the domain it came from is black listed.
 Never give your password to anyone. You will not be asked for your password by the admin, they shouldn't have access to it, and they don't need it for anything.
 
-## 32. Backups
+## 36. Backups
 There are many ways that data can be lost, such as hard drive failures, ransomware attacks, or even human error or theft. Don't let your important computer data disappear. Make a copy or archive of it regularly. Be sure to store backup copies separately from an original device.
 
 It is recommended that you make two copies of your data: one local copy (on a different device) and one offsite copy. It typically means having a backup of your data on an external drive, a backup on a cloud service, and your original data on your computer.
 
-## 33. How to choose the right computer
+## 37. How to choose the right computer
 Choosing a computer is always about making trade-off decisions. In most cases, you will have to make some sacrifices unless you don't care about cost. Depending on your needs, you can choose between:
 
 - Powerful desktop or portable laptop.
@@ -164,7 +162,7 @@ The trade-offs really depend on how you plan to use the system.  The point is, b
 In my opinion, there are quite a few differences in the criteria for selecting a desktop computer or laptop. The size, weight, and screen quality are among the most important factors for me, but you may have different needs and you priorities will be different. A good starting point for choosing the right platform is identifying your needs. 
 
 
-### 34. Desktop,  Laptop or Chromebook?
+### 38. Desktop,  Laptop or Chromebook?
 A laptop or a Chromebook are logical choices if portability is your top priority. In general, however, desktops are a much better product than laptops. There are several reasons why desktops are superior to laptops.
 
 1. Desktops are more powerful
@@ -202,7 +200,8 @@ There are also Chromebooks. Since Chromebooks take advantage of cloud resources,
 
 Overall Chromebooks are excellent for students, office workers, and anyone who works entirely on the web, but not so great for people who need more advanced capabilities of locally installed software.
 
-## 35. Choosing hardware components.
+## 39. Choosing hardware components.
+### Skip this slide
 - When buying a computer it is also important to balance price and performance. Don't be obsessed with getting the fastest available hardware components, it is not necessary. With components  that are not top-of-the-line, you can get excellent performance for less money. I will briefly point out a few other things to consider when purchasing a computer. 
 
 - As the system drive, use SSD, and as extra storage, HDD. Install all applications on SSDs and use HDDs for long-term storage or backups only. M2.NVMe SSDs are much faster than regular SSDs and provide the best performance. With NVMe SSD, applications will load much faster and the overall system will be more responsive. 
@@ -220,7 +219,7 @@ You can find plenty of guides on how to build your own PC. Here is one: [Want a 
 It is likely that at some point you will realize that one PC, even the fastest one, won't suffice to do the work you require. As an example, if the analysis of one sample takes a day and you have thousands of samples to analyze, it will take several years! Using HPC clusters provided by Digital Alliance of Canada might be an option in this case. It would take just a few days to complete all analyses with a thousand of CPUs. Such computational resources are available and free for academic researchers. I encourage you to attend our ACENET basics sessions next week where we will introduce these resources and explain how to use them.
 
 
-## 36. When to repair your computer and when to replace it.
+## 40. When to repair your computer and when to replace it.
 It's tempting to look for a new computer when a computer slows down or shows other signs of trouble.
 But in order to get the most out of your investment, you probably want to extend its lifespan as long as you can.
 
@@ -243,12 +242,14 @@ Check your RAM as well. RAM failure could slow your computer down, but it could 
 To determine whether an upgrade is worth your money, look at how much it will cost. I would not recommend fixing an old (> 5-7 yr) computer if its repair costs more than 25 percent of the cost of a new computer. A simple upgrade to one component can usually extend the lifespan of your computer by a couple of years if it is causing a slowdown. 
 
 
-## 37. Watch our schedule of training sessions to learn how to use different software
+## 41. Training
 
 We offer training sessions to teach you how to use different widely used application software such as Excel, OpenRefine, Python, R, Matlab, Paraview, and more. On this last slide, you will find links to our training sessions as well as to self-study materials.
-## END
 
-## 33. Keyboard
+## 42-43 Glossary
+## END of the Workshop
+
+## 45. Keyboard
 
 Keyboards come in many styles or layouts. The various models differ from shape, size and feel. The most common keyboard layout is the standardized 104-key US keyboard. This layout has seven groups of keys.
 
@@ -267,7 +268,7 @@ Though the alphanumeric keys includes all the numeric keys, still in an standard
 #### Function keys 
 The function keys or F1 through F12 keys are used in programs as shortcut keys to execute frequently performed tasks. 
 
-## 34. Function keys
+## 46. Function keys
 The function keys are located in a row at the top of the keyboard. These keys allow you to input commands without typing long strings of characters. For example, if you press the F1 key, in most programs it will open the help document of the program.  
 
 F1  In most programs opens the help document.
@@ -281,7 +282,7 @@ F10	Activates Windows Menu Bar
 Hold F2 or F11 during boot up to enter BIOS
 Hold F8 during boot up to enter boot menu 
 
-## 35. Windows Key
+## 47. Windows Key
 
 Windows key is used to provide shortcuts around your system. 
 

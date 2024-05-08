@@ -15,7 +15,7 @@ keypoints:
 - "For HPC computers and servers the most used OS in Linux."
 ---
 
-## 18. Choosing an Operating System 
+## 19. Choosing an Operating System 
 We have learned what computers are made of, so let's move on to how to use a real one. In this section I will give you a quick overview of the operating systems and compare major operating systems that are currently available to help you decide which one is best for you.
 
 In order to interact with your computer, you'll use software called an "operating system". Essentially, an OS is a program that stands between your computer and anything else you run on it. Among its essential functions are file management, memory management, process management, input-output management, and peripheral device control. Nowadays, a program can only concern itself with executing its core functions and let the operating system handle all basic system functionality.
@@ -35,6 +35,7 @@ Windows is just the default OS for most people. It's the first one they get to k
 #### MAC OS.
 MacOS is built on top of a UNIX-like OS, which is why it shares many common characteristics with Linux. Unlike Microsoft, whose idea is to make the product as widely available and easy to get to as possible, Apple aims to make their products top quality but pricey and incompatible with other hardware. You can't run any software you want in their hardware, and you can't install their software anywhere else than a Mac machine.
 
+## 20. Choosing an Operating System 
 #### Linux
 Linux is the base of many open-source operating systems. Unlike Windows and MAC OS, Linux isn't a single full operating system, but a collection of programs, utilities and a kernel. 
 
@@ -50,7 +51,7 @@ As I mentioned above, Linux runs on most servers. It's used on most supercompute
 
 On the desktop/laptop side of things, Linux usage isn't nearly as widespread. Back in the day, the learning curve necessary to use Linux was considerably higher than for the other two OS options. This situation has been changing lately. Linux distributions put more focus on user-friendliness and it becomes easier to get computers with Linux installed by default.
 
-### 19. The most widely used Linux distributions
+### 21. The most widely used Linux distributions
 There are three families of Linux distributions: RedHat, Debian and openSUSE. Linux distributions share the same operating system and software at their core. It is the package management systems and tools that make the biggest difference between the distributions. The package management system is composed of two components: a low level tool for installing individual packages and a front end tool for performing more complex actions such as updating the operating system, installing groups of packages, and satisfying dependencies.
 
 The lifetime of support is an important consideration when choosing a distribution. It is possible to try out the latest technologies and software with cutting edge distributions like Fedora, but the support time is short (13 months for Fedora). If you do your work on a computer, it is more practical to use a distribution offering a long support period, such as Ubuntu LTS - 5 years or Rocky Linux - 10 years.
@@ -80,11 +81,11 @@ The special feature of OpenSUSE is the wide range of configuration and managemen
 
 Red Hat Package Manager, Front end is  zypper.
 
-## 18. Choosing an Operating System
+## 22. Choosing an Operating System
 ### Chrome OS
 And the last OS we will look at is ChromeOS. The ChromeOS operating system is a specialized operating system developed by Google exclusively for Chromebooks. Unlike traditional operating systems ChromeOS heavily relies on cloud-based services. The ChromeOS operating system was initially limited to apps that could run inside the Chrome web browser. Over the years ChromeOS has evolved into a modern and versatile operating system. Besides supporting all Chrome-based stuff, ChromeOS can also connect to the Play Store and install almost any Android app. Linux applications can now be run on some Chromebook models as well. It is even possible to run Windows applications on high-end Chromebooks (using commercial software such as Crossover and Parallels).
 
-### 20. OS comparison: filesystems and command shells.
+### 23. OS comparison: filesystems.
 #### File Systems.
 Let's compare operating systems more closely.
 Unlike MacOS and Linux, Windows organizes files differently. Windows uses "drives".
@@ -97,6 +98,7 @@ Linux and Mac share a similar file system derived from UNIX. In these operating 
 
 While it doesn't make much of a difference to the end user, it's something to keep in mind if you're used to navigating one type of file system.
 
+## 24. OS comparison: command shells.
 #### Command-Line Shells.
 Linux and macOS fall into the family of Unix-like systems that are designed as multitasking, multi-user operating systems. Furthermore, these systems are POSIX-compliant. The POSIX standard establishes compatibility between operating systems. As a result, all these systems offer standard UNIX facilities, and you can interact with them using the same commands.
 
@@ -106,31 +108,26 @@ Both Linux and Mac have bash or zsh as their default shells, while Windows has i
 
 [Bash tutorial](https://swcarpentry.github.io/shell-novice/)
 
-### 21. OS comparison: package managers, software, security.
-#### Package managers
-
-#### What is Software package?
+### 25. OS comparison: package managers, software.
+#### What is Software package and What is package manager?
 Software packages are collections of executable files, libraries, and other required resources bundled together with instructions for installation and configuration.
 
 Packages are pieces of software that contain everything you need to use them in a single archive. 
-#### What is package manager?
 
 Package manager is a software service installed atop of the operating system that that helps you to manage other software. Package managers download, install, and maintain various software packages as well as system packages (kernels, drivers, and utilities).    
 
-A package manager keeps track of what software is installed on your computer, and allows you to easily install new software, upgrade software to newer versions, or remove software that you previously installed. 
+A package manager keeps track of what software is installed on your computer, and allows you to easily install new software, upgrade software to newer versions, or remove software that you previously installed. Package managers are super helpful, especially when you're installing and uninstalling things constantly. It's much more efficient to install programs through package managers than manually. 
 
+Package managers are the backbone of Linux distributions, so Linux always comes with a package manager by default.
 
-Linux comes with a package manager installed by default. A package manager is a piece of software that allows you to install, update, and uninstall programs from the terminal, just by entering a few commands. 
+There are two file formats for Linux packages: DEB and RPM. Various Linux distributions use different formats. RPM is the package format for RedHat-based Linux family and openSUSE. DEB is the package format for Debian-based distributions.   
 
-They're super helpful, especially when you're installing and uninstalling things constantly, as it's much more efficient to install programs through package managers than manually. 
-
-There are two file formats for Linux packages: DEB and RPM. Various Linux distributions use different formats. RPM is the package format for RedHat-based Linux family and openSUSE. DEB is the package format for Debian-based distributions.
 APT is the package manager for DEB packages while RPM packages are managed by yum or its successor dnf.
 
 [APT tutorial](https://itsfoss.com/apt-command-guide/)  
 [DNF tutorial](https://docs.fedoraproject.org/en-US/quick-docs/dnf/)
 
-MacOS doesn't come with a default package manager. The most popular package manager for MacOS is [homebrew](https://brew.sh). 
+MacOS doesn't come with a default package manager. The most popular package manager for macOS is [homebrew](https://brew.sh). 
 
 Starting from Windows 10 Microsoft provides `App Installer` package manager.  One of the most popular third party package managers available for Windows is [Chocolatey](https://chocolatey.org).
 
@@ -141,7 +138,7 @@ Windows is the most widely used OS, and thanks to that most software is adapted 
 
 Back in the day, Linux wasn't compatible with many programs out there, but this has started to change recently, especially with the most popular distros like Ubuntu.
 
-### 22. Security and stability, virtual machines
+### 26. Security and stability, virtual machines
 Some GNU/Linux distros are considered the most secure and stable ones nowadays. The fact that the code is available to everyone isn't a security threat as you may think at first – but rather it's an advantage. Bugs can be identified and worked on quicker, and when a security breach is identified lots of people can work on it and propose fixes.
 
 Windows, on the other hand, is considered the least secure and stable of the three. Given that it's the most popular OS, most malware is developed to attack Windows OS too.

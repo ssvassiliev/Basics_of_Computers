@@ -18,7 +18,7 @@ keypoints:
 - "HDDs are good for data storage, because of the low price per GB, but not so good for system disks because of the low IOPS."
 ---
 
-## 6. Anatomy of a computer (Basic parts of a computer).
+## 7. Anatomy of a computer (Basic parts of a computer).
 You might be wondering what you find inside a computer when you open it up. A modern computer contains a lot of things. What exactly is inside and what are the functions of all its components? 
 
 First I am going to take you through a quick overview of the most common hardware components. We will then take a closer look at some most important components.
@@ -36,7 +36,7 @@ First I am going to take you through a quick overview of the most common hardwar
 
 As we move forward, let's take a closer look at some of the most important computer components.
 
-## 7. Central Processing Unit (CPU) 
+## 8. Central Processing Unit (CPU) 
 A CPU is one of the main components of your computer which is responsible for processing the data. Processors are electronic circuits used by computers to execute instructions. There are three main components of any CPU: arithmetic logic unit, control unit and registers. It is a very basic example, as modern more sophisticated CPU chips have additional logic, but there are at least these three main components in all CPUs.
 
 ![](../fig/von_Neumann.svg)
@@ -47,7 +47,7 @@ What are the functions of these main CPU components?
 - controls the operation of the ALU, memory and input/output devices, telling them how to respond to the program instructions.
 3. Registers are high-speed storage areas in the CPU. Whenever data is processed, it must first be stored in a register.
 
-## 8. Graphics Processing Unit (GPU)
+## 9. Graphics Processing Unit (GPU)
 Graphics processing units have become one of the most important types of computing technology today. GPU development had predominantly been driven by the gaming industry, and GPUs are best known for their capabilities in video rendering. GPUs were originally developed to accelerate specific 3D rendering tasks. Over time, these fixed-function engines became more programmable and more flexible. While graphics processing remains their principal function, GPUs have evolved to become more general-purpose parallel processors. Today they are handling a growing range of scientific and engineering applications in areas such as machine learning, particle and fluid simulations, drug design, and electronic structure calculations.
 
 Although most modern CPUs are equipped with integrated GPUs, the performance of these GPUs as compared to discrete GPUs is much lower.
@@ -67,7 +67,7 @@ CUDA cores are only a part of what Nvidia GPUs offer. Additionally, they are equ
 
 In summary, GPU architecture enables to process massive amounts of data simultaneously at extremely fast speeds.
 
-## 9. Random Access Memory (RAM) 
+## 10. Random Access Memory (RAM) 
 During the course of computing, data and instructions enter a computer through the input devices and are then stored in memory for future processing. In computers, there are two kinds of memory: primary and secondary. Random Access Memory (RAM) is the primary internal storage area of the computer for code and data that needs to be operated on quickly. It is located on the motherboard and connected directly to the CPU. Due to this, data can be read from and written to primary storage extremely quickly. Using RAM, CPUs can interact with the information held in memory quickly and efficiently. 
 
 The RAM can be compared to your desk's working area. When it's full, you need to organize and store stuff, otherwise everything will take forever, and things will fall off. As the amount of available RAM is limited, it needs to be cleared and refilled constantly. You won't have to worry, it happens automatically on all computers. RAM is one component of the computer that determines how fast it runs.
@@ -90,7 +90,7 @@ For example, Windows 11's File Explorer was recently said to cause a memory leak
 In order to resolve the issue, it is best to close the offending program and allow the operating system to release its memory. In severe cases, the system may need to be rebooted to free up all RAM.
 <----->
 
-## 10. Long Term Data Storage
+## 11. Long Term Data Storage
 Computers read both data and instructions from storage to perform various tasks. Thus, for data to be processed, it must first be stored in a way that makes it accessible to the CPU. There are many different storage devices available today that are capable of storing data for an extended period of time. Storage devices such as hard drives and flash drives contain non-volatile memory which is like paper. Even though it can be destroyed or erased, if properly cared for, it can last for a very long period of time.
 
 ### How digital computers store information?
@@ -108,7 +108,7 @@ For example, in ASCII upper case literals A-Z are represented by decimal numbers
 
 [Dec to binary](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
 
-## 11. Hexadecimal number system
+## 12. Hexadecimal number system
 If you worked with image editing or webpage design you are probably familiar with Hexadecimal Colors. In this color coding system intensity of each of the three primary colors (red, green and blue) is represented by two hexadecimal digits between 00 and FF to create 255 possible values, thus resulting in more than 16 million possible colors. 
 
 The hexadecimal number system is a type of number system, that has a base value equal to 16. It is also pronounced sometimes as 'hex'. Hexadecimal numbers are represented by 16 symbols. These symbols are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E and F.
@@ -121,9 +121,9 @@ Hex system is commonly used in Computer programming and Microprocessors. Hexadec
 
 The major disadvantage of Hexadecimal number system is that it may not be an easy to read and write for people, and also difficult to perform operations like multiplications, divisions using hexadecimal number system. 
 
-## 12. Octal number system
+## 13. Octal number system
 
-The octal number system is a type of number system, that has a base value equal to 8. Let's consider a practical example of using it - Linux file permissions. 
+The octal number system is a type of number system, that has a base value equal to 8. Let's consider a practical example of using it - Linux filesystem permissions. 
 
 Securing your data stored on a MAC or Linux system, requires understanding file permissions: how they work, and how to change them. Permissions determine who can access files and directories and how. Linux has three types of permissions: read, write, and execute. The permissions are each controlled by a single bit that can be toggled on or off (0 - no permission, 1 - permission allowed).
 
@@ -142,7 +142,7 @@ read write execute   read write execute    read write execute
 
 Because each binary triplet has 8 values in the range 0 - 7, it is convenient to represent it with a single octal number. As a result, a three-digit octal number represents a complete specific file permission for all groups of users (for example 764). The first digit is for owner permissions, the second digit is for group permissions, and the third is for other users.
 
-Note: - Only one set of rwx bits are ever used. User takes precedence over group which takes precedence over other. 
+Note: - Only one set of rwx bits are ever used. Owner takes precedence over group which takes precedence over other. 
 
 ## Poll #2:
 What numeric code would you use if you wanted the permission to be
@@ -152,14 +152,14 @@ What numeric code would you use if you wanted the permission to be
 3. 735
 4. 825
 
-## 13. Storage devices (Storage media types and their characteristics).
+## 14. Storage devices (Storage media types and their characteristics).
 Bits can be stored on any medium that has at least two separate states. The three main types of storage media are magnetic, optical, and semiconductor.
 - In a magnetic hard drive bits are represented by tiny magnets (magnetic dipoles) with opposing orientations.
 - Reflectivity is used to encode bits on an optical disk.
 - In a semiconductor chip bits are stored as electric charge. An uncharged memory cell represents one, while a charged memory cell represents zero.
 
-## 14. Flow of information in computers (What is the difference between RAM and long term storage?)
-Both RAM and storage devices store bits of information. How do they differ from one another in terms of their primary function? The primary purpose of storage devices is to store data that is not being used by CPUs. This includes lond term data storage and storage of temporary files. So, storage devices serve as an addition to the computer's main memory. It is for this reason that they are often referred to as secondary memory.
+## 15. Flow of information in computers (What is the difference between RAM and long term storage?)
+Both RAM and storage devices store bits of information. How do they differ from one another in terms of their primary function? The primary purpose of storage devices is to store data that is not being used by CPUs. This includes long-term data storage and storage of temporary files. So, storage devices serve as an addition to the computer's main memory. It is for this reason that they are often referred to as secondary memory.
 
 It is important to understand how information flows in a computer in order to understand how primary memory differs from secondary memory. Data and programs enter the computer through input devices. A storage medium is where data is stored for future use after it has been entered or generated by an application. It is common for storage devices to be large, but they are slow to respond. Direct access to memory of storage devices would be inefficient since the CPU would need to wait for data. In order to enhance the efficiency of the system, memory is organized in such a way that access time for running processes is minimized.
 
@@ -169,7 +169,7 @@ This is achieved by organizing memory access in a specific manner:
 
 2. The operating system loads instructions and data into RAM in order to execute any program. RAM is smaller, faster, and can be accessed directly by the CPU. As only the ready to run processes are loaded in primary memory, the CPU can access them efficiently, which optimizes the performance of the system.
 
-## 15. Characteristics of storage devices
+## 16. Characteristics of storage devices
 ### What to Consider When Buying A Data Storage Device?
 The performance of storage devices is very important for many reasons, not only for the safe and convenient storage of data, but also for the efficient operation of the computer system as a whole. A computer storage device is characterized by two basic performance measures: sequential read/write speed and random input/output operations per second (IOPS). 
 
@@ -177,7 +177,7 @@ IOPS are very important in making a computer feel fast and responsive, since an 
 
 The speed of sequential reads and writes is more important for large file transfers.
 
-## 16. Types of storage devices.
+## 17. Types of storage devices.
 Solid state drives and Hard drive disks  are two types of secondary storage devices that are widely used today.
 ### Hard Drive Disks (HDD).
 HDD are mechanical drives where data is written on a spinning magnetic disk. They are inexpensive and good for long term data storage. However, performance of HDD (particularly IOPS) is limited by the access time (the time it takes before the drive can actually transfer data). In an HDD, data transfer is sequential. 
@@ -202,7 +202,7 @@ A flash memory cell can be thought of as a tiny battery. If not recharged, it wi
 
 Although SSD prices are gradually dropping, they are still more expensive than HDDs. A good HDD sale price is 20-24$/1TB while 1 TB of SSD storage will cost you 60-100$.
 
-## 17. Flash memory 101 - what you need to know.
+## 18. Flash memory 101 - what you need to know.
 For you to make an informed choice when selecting the right storage device, you need to have an understanding of the existing technologies in this rapidly evolving field. How these underlying technologies impact system performance and data storage reliability? 
 
 When you are searching for an SSD, there are a lot of terms that you will come across, and you may feel overwhelmed by the options that are available to you.
@@ -224,7 +224,6 @@ NVMe M.2 Internal SSDs
 Previously we saw that a medium that has two states can store one bit of information at one location. A medium must have more than two states in order to be able to store more than one bit at one location. A group of two bits, for example, would require four different states to represent all possible combinations of 0's and 1's.   
 
 Flash memory can store more than one bit in a single cell. For example in SSD with single-level cell (SLC) technology, each cell can exist in either one of two states, storing one bit of information. The multi-level cell (MLC) is capable of storing more information than a single bit. The term MLC is often used to refer specifically to a two-level cell. Two-level cells store 2 bits of information by using 4 (2 in the power 2) charge levels. As of now, there are also flash technologies with triple and quad level cells (TLCs and QLCs). Penta-level cells are under development (working prototypes have already been demonstrated by Solidigm). 
-
 
 Memory that uses multi-level cells has a higher density of information stored, so the price per gigabyte is lower when compared to memory that uses single level cells. Multilevel cell technologies enable high capacity SSDs to be manufactured. While MLC memory has the advantage of being less expensive than SLC, it is slower, has higher power consumption, higher error rate and its lifespan is shorter. This is why high-performance memory cards still use SLC flash technology.
 
