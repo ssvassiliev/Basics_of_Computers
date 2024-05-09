@@ -30,7 +30,7 @@ First I am going to take you through a quick overview of the most common hardwar
 3. Data storage devices, like hard disks and flash drives, enable users to store all kinds of information, including videos, documents, pictures, and raw data.
 4. Input/output devices allow computers to communicate with human operators and other systems. The most common input devices are keyboards, mice, joysticks, and controllers, while the most common output devices are monitors, speakers/headphones, and printers.
 5. In a computer, Random Access Memory serves as its main memory. It is commonly called just memory. 
-6. In any digital computer, the CPU is the brain which does nearly all the calculating. It is the main microchip in the computer that distributes tasks to all other components of the computer. Most CPUs consist of three major parts: memory, control unit, and arithmetic-logic unit. Yes, the CPU has an internal memory system called a CPU cache. The processor cache is a bank of extremely fast memory that facilitates efficient communication with main memory. 
+6. In any digital computer, the CPU is the brain which does nearly all the calculating. It is the main microchip in the computer that distributes tasks to all other components of the computer. 
 7. A graphics processing unit (GPU) is a specialized processor originally designed to accelerate 3D graphics rendering. There are different types of GPUs: integrated GPUs that are part of the CPU and discrete GPUs that are sold separately. Compared to integrated GPUs, discrete GPUs have much greater processing capabilities. GPUs today are more programmable than ever before. In addition to traditional graphics rendering, they are now used in a wide range of applications. 
 8. Last but not least, the motherboard is one of the biggest boards in a computer's case, and it forms the backbone of the device. Besides managing power, motherboard enables communication between a computer's CPU, RAM, storage and other components.
 
@@ -47,14 +47,17 @@ What are the functions of these main CPU components?
 - controls the operation of the ALU, memory and input/output devices, telling them how to respond to the program instructions.
 3. Registers are high-speed storage areas in the CPU. Whenever data is processed, it must first be stored in a register.
 
+In addition to these components CPUs have an internal memory system called a CPU cache. The processor cache is a bank of extremely fast memory that facilitates efficient communication with the main memory.
+
+
 ## 9. Graphics Processing Unit (GPU)
 Graphics processing units have become one of the most important types of computing technology today. GPU development had predominantly been driven by the gaming industry, and GPUs are best known for their capabilities in video rendering. GPUs were originally developed to accelerate specific 3D rendering tasks. Over time, these fixed-function engines became more programmable and more flexible. While graphics processing remains their principal function, GPUs have evolved to become more general-purpose parallel processors. Today they are handling a growing range of scientific and engineering applications in areas such as machine learning, particle and fluid simulations, drug design, and electronic structure calculations.
 
 Although most modern CPUs are equipped with integrated GPUs, the performance of these GPUs as compared to discrete GPUs is much lower.
 
-The main difference between CPU and GPU is that a CPU is designed to handle a wide-range of tasks quickly (as measured by CPU clock speed), but are limited in the number of tasks that can be running concurrently. The CPU focuses its small number of cores on individual tasks and on getting things done quickly. 
+The main difference between CPU and GPU is that a CPU is designed to handle a wide-range of tasks quickly (as measured by CPU clock speed), but are limited in the number of tasks that can be running concurrently. By design CPUs are more suitable for serial instruction processing. The CPU focuses its small number of cores on individual tasks and on getting things done quickly. 
 
-GPUs consist of thousands of smaller and more specialized processing units (cores). By working together, the cores deliver massive performance when a processing task can be divided up and processed across many cores. For example, when images are processed, they are divided into small blocks and each processing core works on a small part of the image.
+GPUs consist of thousands of smaller, less powerful and more specialized processing units (cores). By working together, the cores deliver massive performance when a processing task can be divided up and processed across many cores. For example, when images are processed, they are divided into small blocks and each processing core works on a small part of the image.
 
 Nvidia calls its parallel processing platform Compute Unified Device Architecture (CUDA). CUDA cores are the processing units inside an Nvidia GPU just like AMD’s Stream Processors. It might be helpful to consider an example to understand how CUDA cores help to accelerate computing. The processor can be compared to a water tank in the sense that it holds data to be processed. The job of emptying the tank will require you to use pipes. You will be able to empty the tank faster if you connect more pipes. CUDA cores act as if they are pipes connected to the processor. With a larger number of CUDA cores, processing can be done at a much faster rate due to the fact that this can be done in parallel.
 
@@ -89,6 +92,12 @@ For example, Windows 11's File Explorer was recently said to cause a memory leak
 
 In order to resolve the issue, it is best to close the offending program and allow the operating system to release its memory. In severe cases, the system may need to be rebooted to free up all RAM.
 <----->
+
+## Poll 5: CPU vs GPU
+Which of the following statements is correct?
+1. Serial instructions are best handled by CPUs
+2. CPUs are specialized components that excel at parallel processing
+3. GPU cores are more powerful than CPU cores
 
 ## 11. Long Term Data Storage
 Computers read both data and instructions from storage to perform various tasks. Thus, for data to be processed, it must first be stored in a way that makes it accessible to the CPU. There are many different storage devices available today that are capable of storing data for an extended period of time. Storage devices such as hard drives and flash drives contain non-volatile memory which is like paper. Even though it can be destroyed or erased, if properly cared for, it can last for a very long period of time.
@@ -201,7 +210,7 @@ What makes flash memory so great is that:
 How long can flash media safely retain data?  
 A flash memory cell can be thought of as a tiny battery. If not recharged, it will gradually lose its charge and data will be lost. It is necessary to fully discharge the memory cell before it can be used to write new data to it. Each time the memory cell is erased, it becomes more leaky, and, as a result, data retention degrades. The endurance standard requires memory cells to retain data for at least ten years if they are lightly (10% of maximum cycles) used. However heavily used cells are required retain data only for 1 year. 
 
-Although SSD prices are gradually dropping, they are still more expensive than HDDs. A good HDD sale price is 20-24$/1TB while 1 TB of SSD storage will cost you 60-100$.
+Although SSD prices are gradually dropping, they are still more expensive than HDDs. A good HDD sale price is 20-24`$`/1TB while 1 TB of SSD storage will cost you 60-100$.
 
 ## 18. Flash memory 101 - what you need to know.
 For you to make an informed choice when selecting the right storage device, you need to have an understanding of the existing technologies in this rapidly evolving field. How these underlying technologies impact system performance and data storage reliability? 

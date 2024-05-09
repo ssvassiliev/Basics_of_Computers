@@ -129,6 +129,13 @@ What numeric code would you use if you wanted the permission to be
 3. 735
 4. 825
 
+5: CPU vs GPU  
+Which of the following statements is correct?
+1. Serial instructions are best handled by CPUs
+2. CPUs are specialized components that excel at parallel processing
+3. GPU cores are more powerful than CPU cores
+
+
 3: Flash memory   
 How many charge levels are used in a triple level flash memory cell? 
 1. 3
@@ -136,14 +143,14 @@ How many charge levels are used in a triple level flash memory cell?
 3. 8
 
 ## 2. What is ACENET?
-If you haven’t heard of ACENET before, we are a non-profit organization funded by government and member institutions, with a mandate to support researchers at Canadian academic institutions and industry in their use of advanced digital tools and technologies, especially the national digital research infrastructure in Canada. 
+Let me begin by introducing Acenet. If you haven’t heard of ACENET before, we are a non-profit organization funded by government and member institutions, with a mandate to support researchers at Canadian academic institutions and industry in their use of advanced digital tools and technologies, especially the national digital research infrastructure in Canada. 
 
 We provide access to HPC clusters and cloud computing. Our local support team can help you get started and get the most out of the avilable systems.
 
 Training is a big part of our work. We are offering a variety of workshops, most with a live coding component.
 
 ## 3. Objectives
-This lesson is intended to lead you through some basic computer concepts that will give you a better understanding of the computer. We will learn what is inside a computer and how it works, how to use and maintain a computer, and how to handle possible issues.
+This lesson is intended to lead you through some basic computer concepts that will give you a better understanding of the computer. We will learn what is inside a computer and how it works. We will discuss differences between operating systems, learn how to use and maintain a computer, and how to handle possible issues.
 
 ## 4. What is a computer?
 In its original sense, the term "computer" referred to someone who performed mathematical calculations. In doing their jobs, human computers were supposed to follow fixed rules and they had no authority to alter them. The term was later applied to mechanical devices that replaced human computers.

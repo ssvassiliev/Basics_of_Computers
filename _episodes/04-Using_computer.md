@@ -29,7 +29,7 @@ Windows:
 - "About" section
 
 MAC: 
-- Apple -> About this MAC, click "More info" if needed
+- Apple -> About this MAC, click "More info" -> "System report" -> "Hardware" if needed
 
 ### 28. File extensions.
 A file extension is a suffix added to the name of a file to indicate what type of data is stored in the file. A file extension comes after the period in a filename and is typically made up of three or four characters, however there is no strict convention about the length of file extension. They can be as short as one character (.c, .m, .f). 3-4 character extensions are simply convenient. They are not too long, easy to recognize and remember. At the same time they permit to describe a variety of data types such as txt, doc, png, pdf, csv etc. A filename can include multiple periods.  In most cases, the extension includes only the characters after the final period. 
@@ -69,7 +69,7 @@ If something does not work as expected you need to identify and fix the problem.
 
 - `Safe Mode` can be used to uninstall programs or devices, or run fixes, if you can't get into Windows normally. Safe mode starts Windows in a basic state, using a limited set of files and drivers. If a problem doesn't happen in safe mode, this means that default settings and basic device drivers aren't causing the issue. Observing Windows in safe mode enables you to narrow down the source of a problem, and can help you troubleshoot problems on your PC.
 
-Up until Windows 10, booting up a computer in safe mode was easy. Pressing F8 during boot-up allowed you to access the boot menu and select "Safe Mode". It is more difficult to enter "Safe mode" in Windows 11. For Windows 11 to give you the option to enter "Safe Mode", the boot process must fail three times in a row. (You can simulate failing to boot by turning off your computer while it boots). Three failures will cause Windows to restart into "Automatic Repair" mode,  where you can  activate "Safe Mode".
+Up until Windows 10, booting up a computer in safe mode was easy. Pressing F8 during boot-up allowed you to access the boot menu and select "Safe Mode". It is more difficult to enter "Safe mode" in Windows 11. In Windows 11 to give you the option to enter "Safe Mode", the boot process must fail three times in a row. (You can simulate failing to boot by turning off your computer while it boots). Three failures will cause Windows to restart into "Automatic Repair" mode,  where you can  activate "Safe Mode".
 
 - You can find written instructions and video tutorials on how to do most tech related things.
 
@@ -283,7 +283,6 @@ Hold F2 or F11 during boot up to enter BIOS
 Hold F8 during boot up to enter boot menu 
 
 ## 47. Windows Key
-
 Windows key is used to provide shortcuts around your system. 
 
 Windows Key	Opens Start Menu
@@ -293,7 +292,7 @@ WindowsKey + E	Opens Windows Explorer.
 WindowsKey + F	Opens the Find All Files dialog box.
 WindowsKey + R	Opens the Run dialog box.
 
-## 36. Common keyboard shortcuts
+## 48. Common keyboard shortcuts
 One of the best methods of becoming more efficient with your computer is to learn and memorize as many keyboard shortcuts as possible. 
 
 Here are some useful common keyboard shortcuts. Windows and Mac OS have virtually the same shortcuts, but Mac OS uses the command key instead of the Control key for the shortcuts.
