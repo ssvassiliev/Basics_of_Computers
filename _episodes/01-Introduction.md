@@ -36,7 +36,7 @@ keypoints:
 Collapse
 
 ### feedback 2024 
-
+May 2024 - finished at 2.28 at slide #36 - Backups
 #### wsl - how to setup linux account account to be the same as windows
 
 - Putting your WSL2 home directory on a Windows drive is not recommended because:
