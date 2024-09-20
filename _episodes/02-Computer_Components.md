@@ -34,6 +34,8 @@ First I am going to take you through a quick overview of the most common hardwar
 7. A graphics processing unit (GPU) is a specialized processor originally designed to accelerate 3D graphics rendering. There are different types of GPUs: integrated GPUs that are part of the CPU and discrete GPUs that are sold separately. Compared to integrated GPUs, discrete GPUs have much greater processing capabilities. GPUs today are more programmable than ever before. In addition to traditional graphics rendering, they are now used in a wide range of applications. 
 8. Last but not least, the motherboard is one of the biggest boards in a computer's case, and it forms the backbone of the device. Besides managing power, motherboard enables communication between a computer's CPU, RAM, storage and other components.
 
+Some computer components can be combined on a single chip. GPUs are often integrated into CPU chips, for example.  Almost all computer components can be integrated onto a single chip, including CPUs, GPUs, memory interfaces, and input/output interfaces.  This type of microchip is known as a System-on-a-Chip. Computers can be made smaller and more energy-efficient with SoCs. SoCs may, however, not offer the same performance as dedicated dicrete CPUs or GPUs because of power and space limitations.
+
 As we move forward, let's take a closer look at some of the most important computer components.
 
 ## 8. Central Processing Unit (CPU) 
@@ -61,7 +63,7 @@ GPUs consist of thousands of smaller, less powerful and more specialized process
 
 Nvidia calls its parallel processing platform Compute Unified Device Architecture (CUDA). CUDA cores are the processing units inside an Nvidia GPU just like AMD’s Stream Processors. It might be helpful to consider an example to understand how CUDA cores help to accelerate computing. The processor can be compared to a water tank in the sense that it holds data to be processed. The job of emptying the tank will require you to use pipes. You will be able to empty the tank faster if you connect more pipes. CUDA cores act as if they are pipes connected to the processor. With a larger number of CUDA cores, processing can be done at a much faster rate due to the fact that this can be done in parallel.
 
-CUDA cores are only a part of what Nvidia GPUs offer. Additionally, they are equipped with cores that are specially designed for ray tracing and for tensor operations.
+CUDA cores are only a part of what Nvidia GPUs offer. Additionally, they are equipped with cores that are specially designed for ray tracing and for tensor operations common in AI workloads.
 
 ![](../fig/CSH_CPU-GPU_Illustration.png)
 
@@ -70,7 +72,36 @@ CUDA cores are only a part of what Nvidia GPUs offer. Additionally, they are equ
 
 In summary, GPU architecture enables to process massive amounts of data simultaneously at extremely fast speeds.
 
-## 10. Random Access Memory (RAM) 
+
+## 10. Neural Processing Unit (NPU)
+
+As we enter the era of artificial intelligence computers are being increasingly equipped with Neural Processing Units and integration of Neural Processing Units into CPUs is becoming a standard practice. 
+
+Now, let's take a look at what a neural processing units are and how their performance is measured.
+
+NPUs are special-purpose processors designed to accelerate and efficiently handle the computations required to process neural networks. Matrix multiplication is the fundamental operation in neural networks and other AI applications. The operation is performed by multiplying the corresponding elements of each matrix together and accumulating the results. In order to perform this computation efficiently, NPUs have a large number of specialized multiplier–accumulator units (MAC). A MAC unit can execute both operations in a single clock cycle. 
+
+Neural networks typically represent data as low-precision 8-bit integers, which facilitates efficient processing. Using low precision integers allows for a significant reduction in memory requirements and complexity of MAC units compared to representing data with higher precision integers or floating point numbers. The MAC units for 8-bit integer precision are simple, consume very small power and can be packed very tightly. Furthermore, using low-precision integers also improves computational efficiency. A reduction in precision allows computations to be executed more quickly, since fewer operations are required.
+
+NPU performance is measured in TOPS, or trillion operations per second.
+
+TOPS = 2 × MAC unit count × Frequency / 1 trillion
+
+TOPS provides a rough estimate of NPU performance, but this metric does not accurately reflect real-world AI PC performance. Nevertheless, TOPS can be used as a quick way to determine whether an NPU can handle a particular program. For example Windows Copilot+ advanced AI features require a powerful NPU with at least 40 TOPS. So when shopping for a new PC, you might want to consider the requirements of AI tools that can make your life easier.
+
+How can NPU be used?
+
+Microsoft Copilot+ brings several next-gen AI Windows features to your local computer. I would like to highlight some of these features.
+
+- With Recall, you can find and organize things using a personalized semantic index.  
+- With live captions you can translate  audio from over 40 languages into English subtitles instantly, automatically and even while you’re offline.
+- With Cocreator you can create images using text prompts in just about real-time locally.
+
+AI models are used in many applications, but most of them are hosted in the cloud. Remote access to AI services has disadvantages: you need to be online, and you need to wait for results. With powerful NPUs it will be possible to run such applications locally in real time.
+
+There are also software toolkits for optimizing and deploying deep learning models on NPUs if you want to experiment with your own ML models.
+
+## 11. Random Access Memory (RAM) 
 During the course of computing, data and instructions enter a computer through the input devices and are then stored in memory for future processing. In computers, there are two kinds of memory: primary and secondary. Random Access Memory (RAM) is the primary internal storage area of the computer for code and data that needs to be operated on quickly. It is located on the motherboard and connected directly to the CPU. Due to this, data can be read from and written to primary storage extremely quickly. Using RAM, CPUs can interact with the information held in memory quickly and efficiently. 
 
 The RAM can be compared to your desk's working area. When it's full, you need to organize and store stuff, otherwise everything will take forever, and things will fall off. As the amount of available RAM is limited, it needs to be cleared and refilled constantly. You won't have to worry, it happens automatically on all computers. RAM is one component of the computer that determines how fast it runs.
@@ -99,7 +130,7 @@ Which of the following statements is correct?
 2. CPUs are specialized components that excel at parallel processing
 3. GPU cores are more powerful than CPU cores
 
-## 11. Long Term Data Storage
+## 12. Long Term Data Storage
 Computers read both data and instructions from storage to perform various tasks. Thus, for data to be processed, it must first be stored in a way that makes it accessible to the CPU. There are many different storage devices available today that are capable of storing data for an extended period of time. Storage devices such as hard drives and flash drives contain non-volatile memory which is like paper. Even though it can be destroyed or erased, if properly cared for, it can last for a very long period of time.
 
 ### How digital computers store information?
@@ -117,7 +148,7 @@ For example, in ASCII upper case literals A-Z are represented by decimal numbers
 
 [Dec to binary](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
 
-## 12. Hexadecimal number system
+## 13. Hexadecimal number system
 If you worked with image editing or webpage design you are probably familiar with Hexadecimal Colors. In this color coding system intensity of each of the three primary colors (red, green and blue) is represented by two hexadecimal digits between 00 and FF to create 255 possible values, thus resulting in more than 16 million possible colors. 
 
 The hexadecimal number system is a type of number system, that has a base value equal to 16. It is also pronounced sometimes as 'hex'. Hexadecimal numbers are represented by 16 symbols. These symbols are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E and F.
@@ -130,7 +161,7 @@ Hex system is commonly used in Computer programming and Microprocessors. Hexadec
 
 The major disadvantage of Hexadecimal number system is that it may not be an easy to read and write for people, and also difficult to perform operations like multiplications, divisions using hexadecimal number system. 
 
-## 13. Octal number system
+## 14. Octal number system
 
 The octal number system is a type of number system, that has a base value equal to 8. Let's consider a practical example of using it - Linux filesystem permissions. 
 
@@ -162,13 +193,13 @@ What numeric code would you use if you wanted the permission to be
 4. 825
 
 
-## 14. Storage devices (Storage media types and their characteristics).
+## 15. Storage devices (Storage media types and their characteristics).
 Bits can be stored on any medium that has at least two separate states. The three main types of storage media are magnetic, optical, and semiconductor.
 - In a magnetic hard drive bits are represented by tiny magnets (magnetic dipoles) with opposing orientations.
 - Reflectivity is used to encode bits on an optical disk.
 - In a semiconductor chip bits are stored as electric charge. An uncharged memory cell represents one, while a charged memory cell represents zero.
 
-## 15. Flow of information in computers (What is the difference between RAM and long term storage?)
+## 16. Flow of information in computers (What is the difference between RAM and long term storage?)
 Both RAM and storage devices store bits of information. How do they differ from one another in terms of their primary function? The primary purpose of storage devices is to store data that is not being used by CPUs. This includes long-term data storage and storage of temporary files. So, storage devices serve as an addition to the computer's main memory. It is for this reason that they are often referred to as secondary memory.
 
 It is important to understand how information flows in a computer in order to understand how primary memory differs from secondary memory. Data and programs enter the computer through input devices. A storage medium is where data is stored for future use after it has been entered or generated by an application. It is common for storage devices to be large, but they are slow to respond. Direct access to memory of storage devices would be inefficient since the CPU would need to wait for data. In order to enhance the efficiency of the system, memory is organized in such a way that access time for running processes is minimized.
@@ -179,7 +210,7 @@ This is achieved by organizing memory access in a specific manner:
 
 2. The operating system loads instructions and data into RAM in order to execute any program. RAM is smaller, faster, and can be accessed directly by the CPU. As only the ready to run processes are loaded in primary memory, the CPU can access them efficiently, which optimizes the performance of the system.
 
-## 16. Characteristics of storage devices
+## 17. Characteristics of storage devices
 ### What to Consider When Buying A Data Storage Device?
 The performance of storage devices is very important for many reasons, not only for the safe and convenient storage of data, but also for the efficient operation of the computer system as a whole. A computer storage device is characterized by two basic performance measures: sequential read/write speed and random input/output operations per second (IOPS). 
 
@@ -187,7 +218,7 @@ IOPS are very important in making a computer feel fast and responsive, since an 
 
 The speed of sequential reads and writes is more important for large file transfers.
 
-## 17. Types of storage devices.
+## 18. Types of storage devices.
 Solid state drives and Hard drive disks  are two types of secondary storage devices that are widely used today.
 ### Hard Drive Disks (HDD).
 HDD are mechanical drives where data is written on a spinning magnetic disk. They are inexpensive and good for long term data storage. However, performance of HDD (particularly IOPS) is limited by the access time (the time it takes before the drive can actually transfer data). In an HDD, data transfer is sequential. 
@@ -212,7 +243,7 @@ A flash memory cell can be thought of as a tiny battery. If not recharged, it wi
 
 Although SSD prices are gradually dropping, they are still more expensive than HDDs. A good HDD sale price is 20-24`$`/1TB while 1 TB of SSD storage will cost you 60-100$.
 
-## 18. Flash memory 101 - what you need to know.
+## 19. Flash memory - what you need to know.
 For you to make an informed choice when selecting the right storage device, you need to have an understanding of the existing technologies in this rapidly evolving field. How these underlying technologies impact system performance and data storage reliability? 
 
 When you are searching for an SSD, there are a lot of terms that you will come across, and you may feel overwhelmed by the options that are available to you.
