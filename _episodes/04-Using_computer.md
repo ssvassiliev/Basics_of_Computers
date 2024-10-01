@@ -126,6 +126,11 @@ Some password managers offering free options:
 [LastPass](https://www.lastpass.com/pricing)
 [RoboForm](https://www.roboform.com)
 
+What passowr amager work across Windows and Module?
+Some passowrd managers allow using miltiple devices only in premium versions.
+Bitwarden offers free apps and logins from multiple devices for all systems.
+
+
 ## 34. Security: Multifactor Authentication 
 For accounts that require enhanced security, enable MFA if it is supported.
 There are many ways to enable MFA, such as Authenticator Apps, [USB Security Keys](https://www.yubico.com/), Email or SMS login confirmations, Biometrics.
