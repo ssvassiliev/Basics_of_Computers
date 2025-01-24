@@ -168,6 +168,8 @@ And at last let's install the image editing program GIMP. Run the command and it
 
 `sudo apt install gimp`
 
+GIMP is a very useful open source image manipulation program BTW. Available for all platforms.  I've used GIMP for everything I've needed to do with figures for publication. It is great for things like cropping images, combining them, adding text, and drawing lines and shapes. 
+
 All package managers function in a similar way, but there are differences in the syntax used for each. It's also important to mention that you can install and run a different package manager than the default.
 
 #### Software compatibility
@@ -189,21 +191,22 @@ The operating system doesn't matter much for most people these days. There is no
 #### Exploring OS in a virtual machine 
 Using a virtual machine may be a good option if you are undecided between different operating systems or want to try another OS. Having a quick way to install specific Linux distributions for testing code and debugging software problems is very useful to me. For those preparing to work on HPC clusters, it is a good way to get familiar with Linux commands. VirtualBox lets you run multiple operating systems simultaneously on the same machine. While most open source GUI programs are now available for all platforms, there is a great deal of community-developed software on Github for scientific and engineering problems that only runs on Linux.
 
-It is important to note, however, that the virtualized OS is slower than the native.
-
 I will quickly demonstrate how to install an operating system using VirtualBox and use it.
 
 The great thing about VB is that virtualized operating systems are isolated from the host. In this way, you do not have to worry about messing up your computer. The guest operating system is kept in its own folder, which can be deleted if you no longer need it.
 
-Here's how to install Ubuntu.
-`new`
-Change the location
-Select .iso image
-
-`Unattended install`- create user
-`Hardware` - change memory and the number of CPUs 
+Here's how to install Ubuntu.  
+`New`  
+`Folder` - change the location   
+`ISO Image`- select .iso image  
+`Unattended install`- create user  
+`Hardware` - change memory and the number of CPUs  
+`Hard Disk` - size of storage for the system  
+`Finish`   
 
 I have already installed Debian and Fedora Linux, as you can see. Now let's start Debian and run a few lines of Python code in it.
+
+It is important to note, however, that the virtualized OS is slower than the native.
 
 ### WSL - get the best of two systems 
 Windows Subsystem for Linux lets you run Linux directly on Windows, without the overhead of traditional virtual machines. With the latest release of WSL2, even Linux GUI applications can now be run on Windows in a fully integrated desktop environment. You can now install Ubuntu on Windows with one command: `wsl –install`
