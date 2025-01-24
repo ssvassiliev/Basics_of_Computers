@@ -131,6 +131,43 @@ MacOS doesn't come with a default package manager. The most popular package mana
 
 Starting from Windows 10 Microsoft provides `App Installer` package manager.  One of the most popular third party package managers available for Windows is [Chocolatey](https://chocolatey.org).
 
+#### Using apt
+We'll take a quick look at one of the Linux package managers, apt.  I'll demonstrate several common commands for inspecting packages, installing and managing them.
+
+Linux distributions have precompiled software packages, and when you install Linux apt knows what distribution version you are using and which repository to use. There are some software vendors who maintain their own repositories, and their websites will have instructions on how to add them.
+
+`apt --help`
+
+Lists the most common commands. I'll run a couple of commands to show you how it works .. 
+How do you find out what packages are available? 
+
+`apt list | wc -l`
+
+This command lists all available packages, as you might have guessed
+You can list only installed packages:
+
+`apt list --installed | wc -l`
+
+When trying to install a program, you might not know the exact name of the package. Say we want to install openmm. 
+
+`apt list openmm`  
+
+- shows nothing
+
+We can search for a package for a keyword anywhere in its description
+
+`apt search openmm`
+
+- finds more packages than you need
+
+Only show packages whose names contain openmm
+
+`apt list | grep openmm`
+
+And at last let's install the image editing program GIMP. Run the command and it's done
+
+`sudo apt install gimp`
+
 All package managers function in a similar way, but there are differences in the syntax used for each. It's also important to mention that you can install and run a different package manager than the default.
 
 #### Software compatibility
@@ -150,7 +187,23 @@ A feature that sets Windows apart from other operating systems is its registry. 
 The operating system doesn't matter much for most people these days. There is no such thing as the "best" OS, so you're better off using the one you're most comfortable with. Even so, each OS is still unique. There are some scientific applications that aren't available on all platforms, and some that don't work well on all operating systems. You may be in a situation where it's a good idea to use several OSes at the same time. For example, you may use Linux working on HPC clusters coding and Windows for Office applications.
 
 #### Exploring OS in a virtual machine 
-Using a virtual machine may be a good option if you are undecided between different operating systems or want to try another OS. VirtualBox lets you run multiple operating systems simultaneously on the same machine. It is important to note, however, that the virtualized OS is significantly slower than the native.
+Using a virtual machine may be a good option if you are undecided between different operating systems or want to try another OS. Having a quick way to install specific Linux distributions for testing code and debugging software problems is very useful to me. For those preparing to work on HPC clusters, it is a good way to get familiar with Linux commands. VirtualBox lets you run multiple operating systems simultaneously on the same machine. While most open source GUI programs are now available for all platforms, there is a great deal of community-developed software on Github for scientific and engineering problems that only runs on Linux.
+
+It is important to note, however, that the virtualized OS is slower than the native.
+
+I will quickly demonstrate how to install an operating system using VirtualBox and use it.
+
+The great thing about VB is that virtualized operating systems are isolated from the host. In this way, you do not have to worry about messing up your computer. The guest operating system is kept in its own folder, which can be deleted if you no longer need it.
+
+Here's how to install Ubuntu.
+`new`
+Change the location
+Select .iso image
+
+`Unattended install`- create user
+`Hardware` - change memory and the number of CPUs 
+
+I have already installed Debian and Fedora Linux, as you can see. Now let's start Debian and run a few lines of Python code in it.
 
 ### WSL - get the best of two systems 
 Windows Subsystem for Linux lets you run Linux directly on Windows, without the overhead of traditional virtual machines. With the latest release of WSL2, even Linux GUI applications can now be run on Windows in a fully integrated desktop environment. You can now install Ubuntu on Windows with one command: `wsl –install`
